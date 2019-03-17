@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */ 
+
+::selection {
+	background: #4fd6e8;
+}
+::-moz-selection {
+	background: #4fd6e8;
+}
+
+a, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .contrive-portfolio-item:hover figure figcaption h6 a:hover, .contrive-portfolio-item:hover figure figcaption p a:hover, .contrive-facts .contrive-facts-icon-holder i, .contrive-list li:before, .contrive-contact address:before, .contrive-contact abbr:before, .contrive-contact abbr a:hover, .contrive-blog-item .entry-meta .posted-on time span, .contrive-blog-item .entry-footer p a:hover, .contrive-blog-item .entry-header h4 a:hover, .widget.widget_recent_entries ul li a:hover, .widget ul li a:hover, .widget.widget_categories ul li:hover:before, .paging-navigation .pagination .page-numbers.current, .contrive-portfolio-meta-details li.links a:hover, .contrive-icon-with-title.style3 .contrive-icon-holder i, .contrive-team .contrive-social-links li a:hover i, .contrive-icon-with-title.style5 .contrive-icon-holder i, .contrive-error404 .contrive-error-info i, .contrive_twitter_widget ul.contrive-tweets-list li a, .contrive-contact-with-large-icon .contrive-contact-text-holder a:hover, .contrive-nav-links li a:hover, .contrive-icon-with-title.style6 .contrive-icon-holder i {
+	color: #4fd6e8;
+}
+
+.main-nav > ul > li:hover > a, .header-main.sticky .main-nav > ul > li:hover > a, .main-nav > ul > li.current_page_item > a, .header-main.sticky .main-nav > ul > li.current_page_item > a, .main-nav ul.contrive-sub-menu li.current_page_item > a, .contrive-mega-menu-container ul li.current_page_item a {
+	color: #4fd6e8;
+}
+
+.contrive-heading h1:before, .contrive-heading h2:before, .contrive-heading h3:before, .contrive-heading h4:before, .contrive-heading h5:before, .contrive-portfolio-details-slideshow-nav a:hover, .contrive-skin-color, .contrive-row-fw.contrive-locate-bg {
+	background: #4fd6e8;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"], .contrive-icon-with-title.style1:hover .contrive-icon-holder, .contrive-icon-with-title h6:before, .contrive-button, .contrive-facts:hover .contrive-facts-icon-holder, .contrive-icon-with-title.style2:hover .contrive-icon-holder, .contrive-blog-thumb-style.skin, .widget h2.widget-title:before, .widget.widget_tag_cloud .tagcloud a:hover, .contrive-sidebar-holder .widget .contrive-newsletter input[type="submit"]:hover, .paging-navigation .pagination .page-numbers:hover, blockquote.style1:before, ol.comment-list li.comment .reply a:hover, .contrive-portfolio-filter ul li a:hover, .contrive-portfolio-filter ul li a.current, .contrive-blog-item .post-thumbnail .post-format, .contrive-tabs-boxed .contrive-tabs-nav li a:hover, .contrive-tabs-boxed .contrive-tabs-nav li a.current, .contrive-icon-with-title.style4:hover .contrive-icon-holder:before, .contrive-team .contrive-social-links:before, .contrive-facts.style2 h6:before, ol.contrive-planner-list > li h6:before, ol.contrive-planner-list > li:hover:before, .contrive-progress-bar-wrapper .contrive-progress-bar, .contrive-accordion-holder .contrive-accordion-panel.current .contrive-accordion-title .contrive-accordion-arrow, .contrive-accordion-holder .contrive-accordion-panel:hover .contrive-accordion-title .contrive-accordion-arrow, .hvr-shutter-out-horizontal:before, .contrive-icon-with-title.style7 .contrive-icon-holder, .contrive-button.stroke-style:hover, #contrive-vertical-nav .contrive-vertical-nav-dot, #contrive-vertical-nav .contrive-vertical-nav-label, .contrive-top:hover, .contrive-owl-carousel-custom-nav a:hover, #infscr-loading, #portfolio-ajax-loader, .contrive-header-with-topbar .header-top, .contrive-blog-thumb-style2 .entry-format {
+	background-color: #4fd6e8;
+}
+
+.contrive-icon-with-title.style2 .contrive-icon-holder, .widget.widget_tag_cloud .tagcloud a:hover, .contrive-sidebar-holder .widget .contrive-newsletter input[type="submit"], .paging-navigation .pagination .page-numbers:hover, ol.comment-list li.comment .reply a:hover, .contrive-portfolio-filter ul li a:hover, .contrive-portfolio-filter ul li a.current, .contrive-tabs-boxed .contrive-tabs-nav li, ol.contrive-planner-list > li:hover:before, .contrive-accordion-holder .contrive-accordion-panel.current .contrive-accordion-title .contrive-accordion-arrow, .contrive-accordion-holder .contrive-accordion-panel:hover .contrive-accordion-title .contrive-accordion-arrow, .contrive-button.stroke-style:hover, #contrive-vertical-nav a.is-selected .contrive-vertical-nav-dot, .contrive-owl-carousel-custom-nav a:hover, #contrive-masthead.contrive-left-side-header, .contrive-portfolio-details-slideshow-nav a:hover {
+	border-color: #4fd6e8;
+}
+
+.light-text .contrive-icon-with-title.style4:hover .contrive-icon-holder, .contrive-large-button:hover i, .contrive-medium-button i, .contrive-testimonial.style2:before, .contrive-career .contrive-career-desc h6 span, .contrive-pricing-box .contrive-pricing-price { 
+	color: #4fd6e8; 
+}
+.contrive-large-button i, .contrive-large-button:hover, .contrive-medium-button:hover, .contrive-icon-with-title.style3:hover .contrive-icon-holder, .contrive-icon-with-title.style8 .contrive-icon-holder, .contrive-icon-with-title.style8:hover h6, .contrive-icon-with-title.style9:hover .contrive-icon-holder, .contrive-icon-with-title.style10:hover, .contrive-no-space-cols [class^=contrive-col-]:last-child .contrive-icon-with-title.style10:hover, .contrive-image-with-title.style1 .contrive-image-title, .contrive-portfolio-item figure, .contrive-faq .contrive-faq-answer, .contrive-career .contrive-career-title .contrive-career-number, .contrive-career .contrive-career-foot p a:hover, .contrive-career-form h6:before, .contrive-side-navigation li a:hover, .contrive-side-navigation li.current_page_item a, .contrive-pricing-box:hover .contrive-pricing-title { 
+	background: #4fd6e8; 
+}
+.contrive-large-button:hover, .contrive-medium-button:hover, .contrive-icon-with-title.style10:hover, .contrive-no-space-cols [class^=contrive-col-]:last-child .contrive-icon-with-title.style10:hover, .contrive-testimonial.style2 .contrive-testimonial-author img, .contrive-pricing-box:hover .contrive-pricing-price  {
+	border-color: #4fd6e8; 
+}
+.contrive-icon-with-title.style1:hover { 
+	border-bottom-color: #4fd6e8; 
+}
+.contrive-portfolio-meta-wrapper {
+	border-top-color: #4fd6e8;
+}
+
+.main-nav > ul > li.current_page_item > a:after, .main-nav > ul > li > a:after, .contrive-mega-menu-container, .main-nav ul li > ul.contrive-sub-menu { 
+	border-top-color: #4fd6e8;
+}
+.main-nav > ul > li.current_page_item > a:after, .main-nav > ul > li > a:after { 
+	border-bottom-color: #4fd6e8; 
+}
+.contrive-blog-item:hover .entry-meta .post-format, .contrive-blog-item:hover .entry-meta .post-format:before {
+	background: #4fd6e8;
+}
+.contrive-blog-item .entry-meta-data a:hover, .contrive_twitter_widget ul.contrive-tweets-list li:before {
+	color: #4fd6e8;
+}
+
+.widget.contrive-flickr-widget ul li a:before {
+	background-color: rgba(79, 214, 232, 0.7);
+}
+.contrive-blog-thumb-style .post-thumbnail:before {
+	background: rgba(79, 214, 232, 0.6);
+}
+
+/* New Styles */
+.contrive-title-bg:before, .contrive-row-fw.contrive-facts-parallax:before, .contrive-overlay-nav {
+	background: rgba(79, 214, 232, 0.9);
+}
+.tp-caption.contrive-title5, .contrive-title5, .tp-caption.contrive-ken-title2, .contrive-ken-title2, .tp-caption.contrive-title2, .contrive-title2, .contrive-image-with-title.style2 .contrive-icon-holder, .contrive-horizontal-timeline .events a.selected, .contrive-horizontal-timeline .events a:hover, .no-touch .cd-timeline-navigation a:hover span, .tp-caption.contrive-parallax-title3, .contrive-parallax-title3 { 
+	color: #4fd6e8; 
+}
+.contrive-preloader-folding-cube .contrive-cube:before, .contrive-overlay-nav-toggle, .contrive-overlay-nav-toggle.menu-open .close-icon:before, .contrive-overlay-nav-toggle.menu-open .close-icon:after, .contrive-row-fw.contrive-polygon-parallax, .contrive-row-fw.contrive-quote-parallax, .contrive-quote-form:before, .contrive-horizontal-timeline .filling-line, .contrive-horizontal-timeline .events a.selected:after, .no-touch .contrive-horizontal-timeline .events a:hover:after { 
+	background-color: #4fd6e8; 
+}
+
+.tp-caption.contrive-rev-home-icon, .contrive-rev-home-icon, .tp-caption.contrive-rev-btn, .contrive-rev-btn, .contrive-image-with-title.style2 .contrive-icon-holder:before, .contrive-triangle-steps li {
+	background: #4fd6e8;
+}
+
+.contrive-image-with-title.style2:hover .contrive-image-title {
+	background-color: rgba(79, 214, 232, 0.9);
+}
+ 
+.contrive-horizontal-timeline .events a.selected:after, .contrive-horizontal-timeline .events a.older-event:after, .no-touch .contrive-horizontal-timeline .events a:hover:after, .no-touch .cd-timeline-navigation a:hover {  
+  	border-color: #4fd6e8;
+}
+
+.contrive-triangle-steps li:after { 
+	border-left-color:#4fd6e8; 
+}
+
+
+.contrive-triangle-steps li:nth-child(2) { 
+	background: #4ccedf; 
+}
+.contrive-triangle-steps li:nth-child(2):after, .contrive-triangle-steps li:nth-child(2):before { 
+	border-left-color: #4ccedf; 
+}
+.contrive-triangle-steps li:nth-child(3) { 
+	background: #49c7d8; 
+}
+.contrive-triangle-steps li:nth-child(3):after, .contrive-triangle-steps li:nth-child(3):before { 
+	border-left-color: #49c7d8; 
+}
+.contrive-triangle-steps li:nth-child(4) { 
+	background: #47c0d0; 
+}
+.contrive-triangle-steps li:nth-child(4):after, .contrive-triangle-steps li:nth-child(4):before { 
+	border-left-color: #47c0d0; 
+}
+
+
+.contrive-button.style2, .contrive-heading.type2:before, .contrive-heading.type2:after, .contrive-heading.type2 h2:before, .contrive-icon-with-title.style8 .contrive-icon-holder:before, .contrive-icon-with-title.style9:hover .contrive-icon-holder:before, .contrive-contact-with-large-icon .contrive-contact-icon-holder, .contrive-contact-with-large-icon .contrive-contact-icon-holder:before, .contrive-tabs-fw .contrive-tabs-nav li:before, .contrive-tabs-fw .contrive-tabs-nav li a:after, .contrive-team.style3 .contrive-social-links, .contrive-flip-box .contrive-flip-box-front figcaption .contrive-flip-box-icon, .contrive-flip-box .contrive-flip-box-front figcaption .contrive-flip-box-icon:before, .contrive-flip-box .contrive-flip-box-front figcaption .contrive-flip-box-icon:after { 
+	background: #4fd6e8;
+}
+
+.contrive-tabs-fw .contrive-tabs-nav li a:before, .contrive-team.style3 .contrive-social-links li a:hover {
+	color: #4fd6e8;
+}
+
+.contrive-tabs-fw .contrive-tabs-nav li a:after {
+	border-top-color: #4fd6e8;
+	border-bottom-color: #4fd6e8;
+}

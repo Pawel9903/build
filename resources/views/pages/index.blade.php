@@ -13,7 +13,7 @@
                         <!-- SLIDE  -->
                         <li data-index="rs-24" data-transition="fade" data-slotamount="default"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="http://placehold.it/100x50/"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="http://placehold.it/1920x1080/000000"  alt=""  width="1920" height="1080" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="150" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                            <img src="{{ asset('/images/build/2940.jpg') }}"  alt=""  width="1920" height="1080" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="150" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="off" class="rev-slidebg" data-no-retina>
                             <!-- LAYERS -->
 
                             <!-- LAYER NR. 1 -->
@@ -32,12 +32,12 @@
                                  data-splitin="none"
                                  data-splitout="none"
                                  data-responsive_offset="on"
-                                 style="z-index: 5; white-space: nowrap;">WE HAVE </div>
+                                 style="z-index: 5; white-space: nowrap;">ZAPEWNIAMY </div>
 
                             <!-- LAYER NR. 2 -->
                             <div class="tp-caption contrive-ken-title2 tp-resizeme rs-parallaxlevel-0"
                                  id="slide-24-layer-2"
-                                 data-x="499"
+                                 data-x="565"
                                  data-y="center" data-voffset="-9"
                                  data-width="['auto']"
                                  data-height="['auto']"
@@ -50,7 +50,7 @@
                                  data-splitin="none"
                                  data-splitout="none"
                                  data-responsive_offset="on"
-                                 style="z-index: 6; white-space: nowrap;">PROFESSIONAL </div>
+                                 style="z-index: 6; white-space: nowrap;">SZEROKI ZAKRES </div>
 
                             <!-- LAYER NR. 3 -->
                             <div class="tp-caption contrive-ken-title3 tp-resizeme rs-parallaxlevel-0"
@@ -67,7 +67,7 @@
                                  data-splitin="none"
                                  data-splitout="none"
                                  data-responsive_offset="on"
-                                 style="z-index: 7; white-space: nowrap;">TEAM TO BUILD YOUR DREAM HOME </div>
+                                 style="z-index: 7; white-space: nowrap;">USŁUG OGÓLNOBUDOWLANYCH </div>
 
                             <!-- LAYER NR. 4 -->
                             <div class="tp-caption contrive-rev-btn tp-resizeme rs-parallaxlevel-0"
@@ -82,7 +82,7 @@
                                  data-mask_in="x:0px;y:[100%];"
                                  data-start="3000"
                                  data-responsive_offset="on"
-                                 style="z-index: 8;"><div class="rs-looped disabled"> LEARN MORE <i class="pe-7s-right-arrow"></i> </div> </div>
+                                 style="z-index: 8;"><div class="rs-looped disabled"> SPRAWDŹ <i class="pe-7s-right-arrow"></i> </div> </div>
 
                             <!-- LAYER NR. 5 -->
                             <div class="tp-caption contrive-rev-home-icon tp-resizeme rs-parallaxlevel-0"
@@ -102,7 +102,7 @@
                         <!-- SLIDE  -->
                         <li data-index="rs-25" data-transition="fade" data-slotamount="default"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="http://placehold.it/100x50/"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="http://placehold.it/1920x1080/000000"  alt=""  width="1920" height="1080" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="150" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                            <img src="{{ asset('/images/build/1223.jpg') }}"  alt=""  width="1920" height="1080" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="150" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="off" class="rev-slidebg" data-no-retina>
                             <!-- LAYERS -->
 
                             <!-- LAYER NR. 1 -->
@@ -120,12 +120,12 @@
                                  data-splitin="none"
                                  data-splitout="none"
                                  data-responsive_offset="on"
-                                 style="z-index: 5; white-space: nowrap;">BUSINESS PARTNER </div>
+                                 style="z-index: 5; white-space: nowrap;">NA RYNKU </div>
 
                             <!-- LAYER NR. 2 -->
                             <div class="tp-caption contrive-ken-title2 tp-resizeme rs-parallaxlevel-0"
                                  id="slide-25-layer-2"
-                                 data-x="214"
+                                 data-x="480"
                                  data-y="center" data-voffset="-12"
                                  data-width="['auto']"
                                  data-height="['auto']"
@@ -137,7 +137,7 @@
                                  data-splitin="none"
                                  data-splitout="none"
                                  data-responsive_offset="on"
-                                 style="z-index: 6; white-space: nowrap;">CREATIVE </div>
+                                 style="z-index: 6; white-space: nowrap;"> OD 15</div>
 
                             <!-- LAYER NR. 3 -->
                             <div class="tp-caption contrive-ken-title3 tp-resizeme rs-parallaxlevel-0"
@@ -155,7 +155,7 @@
                                  data-splitin="none"
                                  data-splitout="none"
                                  data-responsive_offset="on"
-                                 style="z-index: 7; white-space: nowrap;">We are Contrive </div>
+                                 style="z-index: 7; white-space: nowrap;">Firma z historią</div>
 
                             <!-- LAYER NR. 4 -->
                             <div class="tp-caption tp-resizeme rs-parallaxlevel-0"
@@ -176,7 +176,7 @@
                             <!-- LAYER NR. 5 -->
                             <div class="tp-caption contrive-ken-title1 tp-resizeme rs-parallaxlevel-0"
                                  id="slide-25-layer-8"
-                                 data-x="center" data-hoffset="-474"
+                                 data-x="center" data-hoffset="-274"
                                  data-y="center" data-voffset="-12"
                                  data-width="['auto']"
                                  data-height="['auto']"
@@ -188,7 +188,7 @@
                                  data-splitin="none"
                                  data-splitout="none"
                                  data-responsive_offset="on"
-                                 style="z-index: 9; white-space: nowrap;">YOUR </div>
+                                 style="z-index: 9; white-space: nowrap;">JESTEŚMY </div>
                         </li>
                     </ul>
                     <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
@@ -207,8 +207,8 @@
                     <div class="contrive-col-3 contrive-custom-padding">
                         <div class="contrive-topmargin-30"> </div>
                         <div class="contrive-heading right">
-                            <h6> We are </h6>
-                            <h2> CONTRIVE </h2>
+                            <h6> W czym się </h6>
+                            <h2> SPECJALIZUJEMY ? </h2>
                         </div>
                         <p class="alignright"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non tincidunt orci. In non vestibulu orci. Praesent ac velit maecenas. </p>
                     </div>
@@ -216,9 +216,9 @@
                     <div class="contrive-col-3 hvr-float">
                         <div class="contrive-icon-with-title circle center style1">
                             <div class="contrive-icon-holder">
-                                <i class="et-icon icon-pencil"> </i>
+                                <i class="et-icon icon-key"> </i>
                             </div>
-                            <h6> Professional Team </h6>
+                            <h6> Budowa domów i nie tylko </h6>
                             <p> Praesent aliquet fermentum magnaunc urna Class aptent taciti sociosqu litora Pellentesque sit </p>
                         </div>
                     </div>
@@ -228,7 +228,7 @@
                             <div class="contrive-icon-holder">
                                 <i class="et-icon icon-gears"> </i>
                             </div>
-                            <h6> We build with love </h6>
+                            <h6> Wypożyczalnia sprzętu </h6>
                             <p> Praesent aliquet fermentum magnaunc urna Class aptent taciti sociosqu litora Pellentesque sit </p>
                         </div>
                     </div>
@@ -236,9 +236,9 @@
                     <div class="contrive-col-3 hvr-float">
                         <div class="contrive-icon-with-title circle center style1">
                             <div class="contrive-icon-holder">
-                                <i class="et-icon icon-key"> </i>
+                                <i class="et-icon icon-pencil"> </i>
                             </div>
-                            <h6> We deliver on time </h6>
+                            <h6> Roboty ziemne </h6>
                             <p> Praesent aliquet fermentum magnaunc urna Class aptent taciti sociosqu litora Pellentesque sit </p>
                         </div>
                     </div>
@@ -253,8 +253,8 @@
             <div class="contrive-container">
 
                 <div class="contrive-heading center">
-                    <h6> Who we are </h6>
-                    <h2> ABOUT CONTRIVE </h2>
+                    <h6> Kim jesteśmy ? </h6>
+                    <h2> W SKRÓCIE </h2>
                 </div>
 
                 <p class="aligncenter contrive-custom-para"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non tincidunt orci. In non vestibulum orci. <br> Praesent ac velit nisl. <a href="" title="">Maecenas facilisis </a> tincidunt odio sollicitudin mattis. </p>
@@ -264,12 +264,12 @@
             </div>
         </div>
 
-        <div class="contrive-row-fw contrive-fw-no-padding contrive-about-cont2 contrive-scale-bg">
+        <div class="contrive-row-fw contrive-fw-no-padding contrive-about-cont2 contrive-scale-bg" style="background:url({{ asset('/images/build/305812-P7U86S-562_light.jpg') }}) left top no-repeat;">
 
             <div class="contrive-row">
 
                 <div class="contrive-col-6">
-                    <img src="http://placehold.it/934x482/" alt="" title="">
+                    {{--<img src="{{ asset('/images/logo/fullLogo297x200.png') }}" alt="" title="">--}}
                 </div>
 
                 <div class="contrive-col-6 contrive-about-cont">
@@ -282,7 +282,7 @@
                                 <div class="contrive-icon-holder">
                                     <i class="et-icon icon-target"> </i>
                                 </div>
-                                <h6> MISSION STATMENT </h6>
+                                <h6> PRECYZYJNIE SPEŁNIMY TWOJE OCZEKIWANIA </h6>
                                 <p> Praesent aliquet fermentum magna Nunc urna Class aptent taciti sociosqu litora Pellentesque sit amet justo orem ipsum dolor sit amet. </p>
                             </div>
                         </div>
@@ -291,7 +291,7 @@
                                 <div class="contrive-icon-holder">
                                     <i class="et-icon icon-global"> </i>
                                 </div>
-                                <h6> We are Gobal </h6>
+                                <h6> DZIAŁAMY NA WIELU OBSZARACH </h6>
                                 <p> Praesent aliquet fermentum magna Nunc urna Class aptent taciti sociosqu litora Pellentesque sit amet justo orem ipsum dolor sit amet. </p>
                             </div>
                         </div>
@@ -301,7 +301,7 @@
                                 <div class="contrive-icon-holder">
                                     <i class="et-icon icon-profile-male"> </i>
                                 </div>
-                                <h6> WHO WE ARE </h6>
+                                <h6> ZESPÓŁ SPECJALISTÓW </h6>
                                 <p> Praesent aliquet fermentum magna Nunc urna Class aptent taciti sociosqu litora Pellentesque sit amet justo orem ipsum dolor sit amet. </p>
                             </div>
                         </div>
@@ -310,7 +310,7 @@
                                 <div class="contrive-icon-holder">
                                     <i class="et-icon icon-trophy"> </i>
                                 </div>
-                                <h6> OUR ACHIEVEMENTS </h6>
+                                <h6> BOGATE PORTFOLIO </h6>
                                 <p> Praesent aliquet fermentum magna Nunc urna Class aptent taciti sociosqu litora Pellentesque sit amet justo orem ipsum dolor sit amet. </p>
                             </div>
                         </div>
@@ -326,8 +326,8 @@
 
         <div class="contrive-row-fw contrive-fw-no-padding">
             <div class="contrive-heading center">
-                <h6> Reccent </h6>
-                <h2> PROJECTS </h2>
+                <h6> Nasze </h6>
+                <h2> PROJEKTY </h2>
             </div>
 
             <p class="aligncenter contrive-custom-para"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non tincidunt orci. In non vestibulum orci. <br> Praesent ac velit nisl. Maecenas facilisis tincidunt odio sollicitudin mattis. </p>
@@ -336,55 +336,55 @@
 
             <div class="contrive-portfolio-filter">
                 <ul>
-                    <li><a href="" title="" data-filter="*" class="current">All Projects</a></li>
-                    <li><a href="" title="" data-filter=".web">Web Design</a></li>
-                    <li><a href="" title="" data-filter=".psd">Photography</a></li>
-                    <li><a href="" title="" data-filter=".ai">Illustration</a></li>
-                    <li><a href="" title="" data-filter=".wp">Wordpress</a></li>
+                    <li><a href="" title="" data-filter="*" class="current">Wszystkie projekty</a></li>
+                    <li><a href="" title="" data-filter=".house">Domy jednorodzinne</a></li>
+                    <li><a href="" title="" data-filter=".block">Bloki</a></li>
+                    <li><a href="" title="" data-filter=".hal">Hale</a></li>
+                    <li><a href="" title="" data-filter=".other">Inne</a></li>
                 </ul>
             </div>
 
             <div class="contrive-portfolio-holder contrive-row contrive-no-space-cols">
-                <article class="contrive-col-3 no-space contrive-portfolio-item psd wp">
+                <article class="contrive-col-3 no-space contrive-portfolio-item house">
                     <figure>
-                        <img title="" alt="" src="http://placehold.it/1170x914/">
+                        <img title="" alt="" src="{{ asset('/images/build/49372.jpg') }}">
                         <figcaption>
                             <div class="fig-overlay">
-                                <h3> <a title="" href="portfolio-details.html"> Sheikh Zayed <strong> Bridge </strong> </a> </h3>
-                                <p> <a title="" href="portfolio-details.html"> Melbourne</a>, <a title="" href="portfolio-details.html"> Australia </a> </p>
+                                <h3> <a title="" href="portfolio-details.html"> Dom jednorodzinny <br> <strong> 08.03.2018</strong> </a> </h3>
+                                <p> <a title="" href="portfolio-details.html"> Olsztyn </a> </p>
                             </div>
                         </figcaption>
                     </figure>
                 </article>
-                <article class="contrive-col-3 no-space contrive-portfolio-item web ai">
+                <article class="contrive-col-3 no-space contrive-portfolio-item block">
                     <figure>
-                        <img title="" alt="" src="http://placehold.it/1170x914/">
+                        <img title="" alt="" src="{{ asset('/images/build/3246.jpg') }}">
                         <figcaption>
                             <div class="fig-overlay">
-                                <h3> <a title="" href="portfolio-details.html"> Akashi kaikyo <strong> Bridge </strong> </a> </h3>
-                                <p> <a title="" href="portfolio-details.html"> Melbourne</a>, <a title="" href="portfolio-details.html"> Australia </a> </p>
+                                <h3> <a title="" href="portfolio-details.html"> Blok <br> <strong> 03.23.2017 </strong> </a> </h3>
+                                <p> <a href="portfolio-details.html"> Olsztyn </a> </p>
                             </div>
                         </figcaption>
                     </figure>
                 </article>
-                <article class="contrive-col-3 no-space contrive-portfolio-item psd">
+                <article class="contrive-col-3 no-space contrive-portfolio-item hal">
                     <figure>
-                        <img title="" alt="" src="http://placehold.it/1170x914/">
+                        <img title="" alt="" src="{{ asset('/images/build/626048-PNZP6Y-668.jpg') }}">
                         <figcaption>
                             <div class="fig-overlay">
-                                <h3> <a title="" href="portfolio-details.html"> The Mobius <strong> Bridge </strong> </a> </h3>
-                                <p> <a title="" href="portfolio-details.html"> Melbourne</a>, <a title="" href="portfolio-details.html"> Australia </a> </p>
+                                <h3> <a title="" href="portfolio-details.html"> Hala <br> <strong> 23.01.2019 </strong> </a> </h3>
+                                <p> <a title="" href="portfolio-details.html"> Olsztyn </a> </p>
                             </div>
                         </figcaption>
                     </figure>
                 </article>
-                <article class="contrive-col-3 no-space contrive-portfolio-item psd ai">
+                <article class="contrive-col-3 no-space contrive-portfolio-item other">
                     <figure>
-                        <img title="" alt="" src="http://placehold.it/1170x914/">
+                        <img title="" alt="" src="{{ asset('/images/build/2995.jpg') }}">
                         <figcaption>
                             <div class="fig-overlay">
-                                <h3> <a title="" href="portfolio-details.html"> Interior <strong> Design </strong> </a> </h3>
-                                <p> <a title="" href="portfolio-details.html"> Melbourne</a>, <a title="" href="portfolio-details.html"> Australia </a> </p>
+                                <h3> <a title="" href="portfolio-details.html"> Mieszkanie <br> <strong> 10.10.2018 </strong> </a> </h3>
+                                <p> <a title="" href="portfolio-details.html"> Olsztyn </a> </p>
                             </div>
                         </figcaption>
                     </figure>

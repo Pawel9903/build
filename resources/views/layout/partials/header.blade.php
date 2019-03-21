@@ -10,12 +10,12 @@
                 <div class="contrive-col-3">
                     <div id="logo">
                         <a href="index.html" title="" class="contrive-standard-logo">
-                            <img class="logo-light" src="../../assets/theme/images/logo-light.png" alt="" title="">
-                            <img class="logo-dark" src="../../assets/theme/images/logo.png" alt="" title="">
+                            <img class="logo-light" src="{{ asset('/images/logo/nameLogo421x60.png') }}" alt="" title="">
+                            <img class="logo-dark" src="{{ asset('/images/logo/nameLogo421x60.png') }}" alt="" title="">
                         </a>
                         <a href="index.html" title="" class="contrive-retina-logo">
-                            <img class="logo-light" src="../../assets/theme/images/logo-light.png" alt="" title="">
-                            <img class="logo-dark" src="../../assets/theme/images/logo.png" alt="" title="">
+                            <img class="logo-light" src="{{ asset('/images/logo/nameLogo421x60.png') }}" alt="" title="">
+                            <img class="logo-dark" src="{{ asset('/images/logo/nameLogo421x60.png') }}" alt="" title="">
                         </a>
                     </div>
                 </div>

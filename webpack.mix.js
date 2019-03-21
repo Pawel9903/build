@@ -28,7 +28,7 @@ mix.styles([
         'resources/theme/js/rs-plugin/css/layers.css',
         'resources/theme/js/rs-plugin/css/navigation.css',
         'resources/theme/css/responsive.css',
-        'resources/theme/css/colors/orange.css'
+        'resources/theme/css/colors/red.css'
     ], 'public/css/theme.css')
     .mix.scripts([
         'resources/theme/js/jquery.min.js',

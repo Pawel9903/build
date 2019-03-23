@@ -2,7 +2,7 @@
 @section('content')
 
     <!-- *** CONTENT WRAP STARTS *** -->
-    <div class="contrive-content-wrap">
+    {{--<div class="contrive-content-wrap">--}}
 
         <!-- *** SLIDER WRAP STARTS *** -->
         <div class="contrive-slider-wrap">
@@ -326,7 +326,7 @@
 
         <div class="contrive-row-fw contrive-fw-no-padding">
             <div class="contrive-heading center">
-                <h6> Nasze </h6>
+                <h6> Wybrane </h6>
                 <h2> PROJEKTY </h2>
             </div>
 
@@ -334,15 +334,15 @@
 
             <div class="contrive-topmargin-50"></div>
 
-            <div class="contrive-portfolio-filter">
-                <ul>
-                    <li><a href="" title="" data-filter="*" class="current">Wszystkie projekty</a></li>
-                    <li><a href="" title="" data-filter=".house">Domy jednorodzinne</a></li>
-                    <li><a href="" title="" data-filter=".block">Bloki</a></li>
-                    <li><a href="" title="" data-filter=".hal">Hale</a></li>
-                    <li><a href="" title="" data-filter=".other">Inne</a></li>
-                </ul>
-            </div>
+            {{--<div class="contrive-portfolio-filter">--}}
+                {{--<ul>--}}
+                    {{--<li><a href="" title="" data-filter="*" class="current">Wszystkie projekty</a></li>--}}
+                    {{--<li><a href="" title="" data-filter=".house">Domy jednorodzinne</a></li>--}}
+                    {{--<li><a href="" title="" data-filter=".block">Bloki</a></li>--}}
+                    {{--<li><a href="" title="" data-filter=".hal">Hale</a></li>--}}
+                    {{--<li><a href="" title="" data-filter=".other">Inne</a></li>--}}
+                {{--</ul>--}}
+            {{--</div>--}}
 
             <div class="contrive-portfolio-holder contrive-row contrive-no-space-cols">
                 <article class="contrive-col-3 no-space contrive-portfolio-item house">
@@ -396,248 +396,18 @@
         <div class="contrive-row-fw light-text contrive-polygon-parallax">
             <div class="contrive-container">
                 <div class="contrive-info-bar style3">
-                    <h3> WOULD YOU LIKE TO BUILD YOUR DREAM HOME WITH US? </h3>
-                    <a href="" title="" class="contrive-button stroke-style light hvr-shutter-out-horizontal hvr-effect"> Get a Free Quote Now </a>
+                    <h3> CHCESZ ZOBACZYĆ WIĘCEJ? </h3>
+                    <a href="" title="" class="contrive-button stroke-style light hvr-shutter-out-horizontal hvr-effect"> Przejdź do galerii </a>
                 </div>
             </div>
         </div>
 
-        <div class="contrive-row-fw">
-            <div class="contrive-container">
-                <div class="contrive-row">
-
-                    <div class="contrive-col-3 contrive-custom-padding-2">
-                        <div class="contrive-heading right">
-                            <h6> Our </h6>
-                            <h2> PROCESS </h2>
-                        </div>
-                        <p class="alignright"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non tincidunt orci. In non vestibulu orci. Praesent ac velit maecenas. </p>
-                    </div>
-
-                    <div class="contrive-col-3">
-                        <div class="contrive-icon-with-title right style9">
-                            <div class="contrive-icon-holder">
-                                <i class="flaticon-worker-1"> </i>
-                            </div>
-                            <h6> plan &amp; Design <span> 01 </span> </h6>
-                            <p> Praesent aliquet fermentum magna Nunc urna Class aptent taciti sociosqu litora Pellentesque sit </p>
-                        </div>
-                    </div>
-
-                    <div class="contrive-col-3">
-                        <div class="contrive-icon-with-title right style9">
-                            <div class="contrive-icon-holder">
-                                <i class="flaticon-wrench"> </i>
-                            </div>
-                            <h6> Development <span> 02 </span> </h6>
-                            <p> Praesent aliquet fermentum magna Nunc urna Class aptent taciti sociosqu litora Pellentesque sit </p>
-                        </div>
-                    </div>
-
-                    <div class="contrive-col-3">
-                        <div class="contrive-icon-with-title right style9">
-                            <div class="contrive-icon-holder">
-                                <i class="flaticon-torch"> </i>
-                            </div>
-                            <h6> Launching <span> 03 </span> </h6>
-                            <p> Praesent aliquet fermentum magna Nunc urna Class aptent taciti sociosqu litora Pellentesque sit </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="contrive-row-fw contrive-grey-bg">
-            <div class="contrive-container">
-
-                <div class="contrive-testimonial style2">
-                    <blockquote>
-                        <q> Donec eleifend velit vel suscipit fringilla. Maecenas sed lacus nec massa molestie consectetur. Etiam sit amet blandit turpis, lobortis accumsan elit. In porta nibh a diam dapibus, ut venenatis tortor sodales </q>
-                    </blockquote>
-                    <div class="contrive-testimonial-author">
-                        <img class="author-image" title="" alt="" src="http://placehold.it/420x420/">
-                        <div class="contrive-testimonial-meta">
-                            <p> JOHN HAMILTON <span> CEO of Contrive </span> </p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="contrive-topmargin-100"></div>
-        <div class="contrive-topmargin-20"></div>
-
-        <div class="contrive-row-fw contrive-fw-no-padding">
-            <div class="contrive-heading center">
-                <h6> Our </h6>
-                <h2> LATEST NEWS </h2>
-            </div>
-
-            <div class="contrive-topmargin-20"></div>
-
-            <div class="contrive-row contrive-no-space-cols">
-                <div class="contrive-col-3 no-space">
-                    <article class="contrive-blog-thumb-style2">
-                        <a class="post-thumbnail" href=""><img src="http://placehold.it/1170x975/" alt="" title=""></a>
-                        <header class="entry-header">
-                            <a class="entry-format" href=""> <i class="fa fa-pencil"> </i> </a>
-                            <div class="contrive-blog-meta">
-                                <div class="posted-on"> <span> POSTED </span> <time datetime="2015-02-14T17:17:52+00:00" class="entry-date">  14 FEB 2015 </time> </div>
-                                <h4> <a href="" title=""> dolore magna aliqua Ut enim ad minim </a> </h4>
-                            </div>
-                        </header>
-                    </article>
-                </div>
-                <div class="contrive-col-3 no-space">
-                    <article class="contrive-blog-thumb-style2">
-                        <a class="post-thumbnail" href=""><img src="http://placehold.it/1170x975/" alt="" title=""></a>
-                        <header class="entry-header">
-                            <a class="entry-format" href=""> <i class="fa fa-pencil"> </i> </a>
-                            <div class="contrive-blog-meta">
-                                <div class="posted-on"> <span> POSTED </span> <time datetime="2015-02-14T17:17:52+00:00" class="entry-date">  14 FEB 2015 </time> </div>
-                                <h4> <a href="" title=""> dolore magna aliqua Ut enim ad minim </a> </h4>
-                            </div>
-                        </header>
-                    </article>
-                </div>
-                <div class="contrive-col-3 no-space">
-                    <article class="contrive-blog-thumb-style2">
-                        <a class="post-thumbnail" href=""><img src="http://placehold.it/1170x975/" alt="" title=""></a>
-                        <header class="entry-header">
-                            <a class="entry-format" href=""> <i class="fa fa-pencil"> </i> </a>
-                            <div class="contrive-blog-meta">
-                                <div class="posted-on"> <span> POSTED </span> <time datetime="2015-02-14T17:17:52+00:00" class="entry-date">  14 FEB 2015 </time> </div>
-                                <h4> <a href="" title=""> dolore magna aliqua Ut enim ad minim </a> </h4>
-                            </div>
-                        </header>
-                    </article>
-                </div>
-                <div class="contrive-col-3 no-space">
-                    <article class="contrive-blog-thumb-style2">
-                        <a class="post-thumbnail" href=""><img src="http://placehold.it/1170x975/" alt="" title=""></a>
-                        <header class="entry-header">
-                            <a class="entry-format" href=""> <i class="fa fa-pencil"> </i> </a>
-                            <div class="contrive-blog-meta">
-                                <div class="posted-on"> <span> POSTED </span> <time datetime="2015-02-14T17:17:52+00:00" class="entry-date">  14 FEB 2015 </time> </div>
-                                <h4> <a href="" title=""> dolore magna aliqua Ut enim ad minim </a> </h4>
-                            </div>
-                        </header>
-                    </article>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="contrive-row-fw contrive-grey-bg">
-            <div class="contrive-container">
-                <div class="contrive-clients">
-                    <div class="contrive-row">
-                        <div class="contrive-col-2">
-                            <div class="aligncenter">
-                                <a href="" title=""><img src="http://placehold.it/187x150/" alt="" title=""></a>
-                            </div>
-                            <div class="contrive-topmargin-30"></div>
-                        </div>
-                        <div class="contrive-col-2">
-                            <div class="aligncenter">
-                                <a href="" title=""><img src="http://placehold.it/187x150/" alt="" title=""></a>
-                            </div>
-                            <div class="contrive-topmargin-30"></div>
-                        </div>
-                        <div class="contrive-col-2">
-                            <div class="aligncenter">
-                                <a href="" title=""><img src="http://placehold.it/187x150/" alt="" title=""></a>
-                            </div>
-                            <div class="contrive-topmargin-30"></div>
-                        </div>
-                        <div class="contrive-col-2">
-                            <div class="aligncenter">
-                                <a href="" title=""><img src="http://placehold.it/187x150/" alt="" title=""></a>
-                            </div>
-                            <div class="contrive-topmargin-30"></div>
-                        </div>
-                        <div class="contrive-col-2">
-                            <div class="aligncenter">
-                                <a href="" title=""><img src="http://placehold.it/187x150/" alt="" title=""></a>
-                            </div>
-                            <div class="contrive-topmargin-30"></div>
-                        </div>
-                        <div class="contrive-col-2">
-                            <div class="aligncenter">
-                                <a href="" title=""><img src="http://placehold.it/187x150/" alt="" title=""></a>
-                            </div>
-                            <div class="contrive-topmargin-30"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="contrive-row-fw light-text contrive-locate-bg">
-            <div class="contrive-google-map-toggle on-hide">
-                <h4> <a href="contact-2.html" target="_blank"><span class="et-icon icon-map-pin"></span> LOCATE US ON GOOGLE MAP </a></h4>
-            </div>
-        </div>
-
-        <div class="contrive-row-fw contrive-contact-space">
-            <div class="contrive-container">
-
-                <div class="contrive-row">
-                    <div class="contrive-col-3">
-                        <div class="contrive-contact-with-large-icon">
-                            <div class="contrive-contact-icon-holder">
-                                <i class="pe-7s-call"></i>
-                            </div>
-                            <div class="contrive-contact-text-holder">
-                                <h6> PHONE </h6>
-                                <p> +123 45 67 890 78 </p>
-                                <p> +123 67 89 012 45 </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="contrive-col-3">
-                        <div class="contrive-contact-with-large-icon">
-                            <div class="contrive-contact-icon-holder">
-                                <i class="icon icon-map"></i>
-                            </div>
-                            <div class="contrive-contact-text-holder">
-                                <h6> ADDRESS </h6>
-                                <p> 17, Contrive Building </p>
-                                <p> Thunder Park, CA 2343 </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="contrive-col-3">
-                        <div class="contrive-contact-with-large-icon">
-                            <div class="contrive-contact-icon-holder">
-                                <i class="icon icon-clock"></i>
-                            </div>
-                            <div class="contrive-contact-text-holder">
-                                <h6> WORKING TIME </h6>
-                                <p> Mon - Sat : 8:00 Am - 18:00 Pm </p>
-                                <p> Sunday : Closed </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="contrive-col-3">
-                        <div class="contrive-contact-with-large-icon">
-                            <div class="contrive-contact-icon-holder">
-                                <i class="icon icon-envelope"></i>
-                            </div>
-                            <div class="contrive-contact-text-holder">
-                                <h6> EMAIL ID </h6>
-                                <a href="" title=""> info@yourdomain.com </a>
-                                <a href="" title=""> support@yourdomain.com </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-    </div>
+        {{--<div class="contrive-row-fw light-text contrive-locate-bg">--}}
+            {{--<div class="contrive-google-map-toggle on-hide">--}}
+                {{--<h4> <a href="contact-2.html" target="_blank"><span class="et-icon icon-map-pin"></span> KONTAKT </a></h4>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</div>--}}
 
     @endsection
 

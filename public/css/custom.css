@@ -1,0 +1,20 @@
+.contact-icon:hover {
+  background: #fff !important;
+}
+
+.contact-icon:hover i {
+  color: #000 !important;
+}
+
+.contact-icon:hover:before {
+  background: #fff !important;
+}
+
+.contact-link {
+  color: #fff !important;
+}
+
+.contact-link:hover {
+  color: #e8594f !important;
+}
+

@@ -1,0 +1,18 @@
+.contact-icon{
+    &:hover{
+        background: $white-primary !important;
+        i{
+            color: $black-primary !important;
+        }
+        &:before{
+            background: $white-primary !important;
+        }
+    }
+}
+
+.contact-link{
+    color: $white-primary !important;
+    &:hover{
+        color: $red-primary !important;
+    }
+}

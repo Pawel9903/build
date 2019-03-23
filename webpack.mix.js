@@ -11,7 +11,8 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.styles([
+mix.sass('resources/sass/custom.scss', 'public/css/custom.css')
+    .styles([
         'resources/theme/style.css',
         'resources/theme/css/grid.css',
         'resources/theme/css/hover.css',
@@ -30,7 +31,7 @@ mix.styles([
         'resources/theme/css/responsive.css',
         'resources/theme/css/colors/red.css'
     ], 'public/css/theme.css')
-    .mix.scripts([
+    .scripts([
         'resources/theme/js/jquery.min.js',
         'resources/theme/js/rs-plugin/js/jquery.themepunch.tools.min.js',
         'resources/theme/js/rs-plugin/js/jquery.themepunch.revolution.min.js',
@@ -48,5 +49,4 @@ mix.styles([
         'resources/theme/js/isotope.min.js',
         'resources/theme/js/functions.js',
         'resources/theme/js/switcher.js',
-    ], 'public/js/theme.js')
-;
+    ], 'public/js/theme.js');

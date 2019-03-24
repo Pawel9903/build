@@ -1,13 +1,9 @@
 @extends('layout.master')
 
 @section('content')
-    <!-- *** BREADCRUMB STARTS *** -->
-    <div style="margin: 100px 0 0 0" class="contrive-title-holder contrive-title-bg">
-        <div class="contrive-container">
-            <h1> USŁUGI </h1>
-        </div>
-    </div>
-    <!-- *** BREADCRUMB END *** -->
+
+    @include('layout.partials.topHeaderPage', ['header' => 'USŁUGI'])
+
     <div class="contrive-content-wrap">
         <div class="contrive-row-fw contrive-fw-no-padding">
             <div class="contrive-container">

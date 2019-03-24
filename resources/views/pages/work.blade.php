@@ -1,11 +1,24 @@
 @extends('layout.master')
 
 @section('content')
-    <!-- *** BREADCRUMB STARTS *** -->
-    <div style="margin: 100px 0 0 0" class="contrive-title-holder contrive-title-bg">
+
+    @include('layout.partials.topHeaderPage', ['header' => 'PRACA'])
+
+    <!-- *** CONTENT WRAP STARTS *** -->
+    <div class="contrive-content-wrap">
+
+
         <div class="contrive-container">
-            <h1> PRACA </h1>
+
+            <div class="contrive-heading center">
+                <h6> Szukasz pracy? </h6>
+                <h2> NAPISZ DO NAS </h2>
+            </div>
+
+            @include('layout.partials.contactForm')
+
         </div>
+
     </div>
-    <!-- *** BREADCRUMB END *** -->
+    <!-- *** CONTENT WRAP END *** -->
 @endsection

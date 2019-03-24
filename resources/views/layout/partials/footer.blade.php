@@ -54,7 +54,7 @@
                             <input type="text" placeholder="IMIĘ I NAZWISKO / FIRMA">
                             <input type="email" placeholder="EMAIL">
                             <textarea cols="2" rows="2" placeholder="WIADOMOŚĆ ..."></textarea>
-                            <input type="submit" value="Submit">
+                            <input type="submit" value="Wyślij">
                         </form>
                     </aside>
                 </div>
@@ -71,13 +71,11 @@
                 </div>
                 <div class="contrive-col-8">
                     <ul class="contrive-nav-links">
-                        <li><a href="" title=""> HOME </a></li>
-                        <li><a href="" title=""> PROJECTS </a></li>
-                        <li><a href="" title=""> WHAT WE DO </a></li>
-                        <li><a href="" title=""> ABOUT </a></li>
-                        <li><a href="" title=""> OUR SERVICES </a></li>
-                        <li><a href="" title=""> BLOG </a></li>
-                        <li><a href="" title=""> CONTACT </a></li>
+                        <li><a href="{{ route('index') }}" title=""> STRONA GŁÓWNA </a></li>
+                        <li><a href="{{ route('gallery') }}" title=""> GALERIA </a></li>
+                        <li><a href="{{ route('services') }}" title=""> USŁUGI </a></li>
+                        <li><a href="{{ route('work') }}" title=""> PRACA </a></li>
+                        <li><a href="{{ route('contact') }}" title=""> KONTAKT </a></li>
                     </ul>
                 </div>
             </div>

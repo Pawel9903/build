@@ -11,7 +11,11 @@
 |
 */
 
-Route::get('/', 'PageController@index');
+Route::get('/', 'PageController@index')->name('index');
+Route::get('/galeria', 'PageController@gallery')->name('gallery');
+Route::get('/uslugi', 'PageController@services')->name('services');
+Route::get('/praca', 'PageController@work')->name('work');
+Route::get('/kontakt', 'PageController@contact')->name('contact');
 
 
 Route::group(['prefix' => 'admin'], function () {

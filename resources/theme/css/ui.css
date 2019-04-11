@@ -20,7 +20,7 @@
  * 13.0 Testmonials
  * 14.0 Social Networks
 	 * 14.1 Social Links
- * 15.0 Contact Details
+ * 15.0 ContactMail Details
 	 * 15.1 Map
  * 16.0 Tabs
  * 17.0 Team
@@ -2465,7 +2465,7 @@ body:not(.no-preloader) .contrive-theme-container {
 }
 
 /**
- * 15.0 Contact Details
+ * 15.0 ContactMail Details
  * -----------------------------------------------------------------------------
  */
 .contrive-contact {

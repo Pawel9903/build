@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types = 1);
 
 namespace App\Http\Controllers;
 
@@ -16,7 +16,7 @@ class PageController extends Controller
      */
     public function index(): View
     {
-        return view('pages/index');
+        return view('pages.index');
     }
 
     /**
@@ -24,7 +24,7 @@ class PageController extends Controller
      */
     public function gallery(): View
     {
-        return view('pages/gallery');
+        return view('pages.gallery');
     }
 
     /**
@@ -32,7 +32,7 @@ class PageController extends Controller
      */
     public function services(): View
     {
-        return view('pages/services');
+        return view('pages.services');
     }
 
     /**
@@ -40,7 +40,7 @@ class PageController extends Controller
      */
     public function work(): View
     {
-        return view('pages/work');
+        return view('pages.work');
     }
 
     /**
@@ -48,6 +48,6 @@ class PageController extends Controller
      */
     public function contact(): View
     {
-        return view('pages/contact');
+        return view('pages.contact');
     }
 }

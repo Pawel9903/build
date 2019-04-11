@@ -16,6 +16,7 @@ Route::get('/galeria', 'PageController@gallery')->name('gallery');
 Route::get('/uslugi', 'PageController@services')->name('services');
 Route::get('/praca', 'PageController@work')->name('work');
 Route::get('/kontakt', 'PageController@contact')->name('contact');
+Route::post('/kontakt/wyslij', 'MailController@contact')->name('contact_send');
 
 
 Route::group(['prefix' => 'admin'], function () {

@@ -344,51 +344,22 @@
                 {{--</ul>--}}
             {{--</div>--}}
 
+
             <div class="contrive-portfolio-holder contrive-row contrive-no-space-cols">
-                <article class="contrive-col-3 no-space contrive-portfolio-item house">
-                    <figure>
-                        <img title="" alt="" src="{{ asset('/images/build/49372.jpg') }}">
-                        <figcaption>
-                            <div class="fig-overlay">
-                                <h3> <a title="" href="portfolio-details.html"> Dom jednorodzinny <br> <strong> 08.03.2018</strong> </a> </h3>
-                                <p> <a title="" href="portfolio-details.html"> Olsztyn </a> </p>
-                            </div>
-                        </figcaption>
-                    </figure>
-                </article>
-                <article class="contrive-col-3 no-space contrive-portfolio-item block">
-                    <figure>
-                        <img title="" alt="" src="{{ asset('/images/build/3246.jpg') }}">
-                        <figcaption>
-                            <div class="fig-overlay">
-                                <h3> <a title="" href="portfolio-details.html"> Blok <br> <strong> 03.23.2017 </strong> </a> </h3>
-                                <p> <a href="portfolio-details.html"> Olsztyn </a> </p>
-                            </div>
-                        </figcaption>
-                    </figure>
-                </article>
-                <article class="contrive-col-3 no-space contrive-portfolio-item hal">
-                    <figure>
-                        <img title="" alt="" src="{{ asset('/images/build/626048-PNZP6Y-668.jpg') }}">
-                        <figcaption>
-                            <div class="fig-overlay">
-                                <h3> <a title="" href="portfolio-details.html"> Hala <br> <strong> 23.01.2019 </strong> </a> </h3>
-                                <p> <a title="" href="portfolio-details.html"> Olsztyn </a> </p>
-                            </div>
-                        </figcaption>
-                    </figure>
-                </article>
-                <article class="contrive-col-3 no-space contrive-portfolio-item other">
-                    <figure>
-                        <img title="" alt="" src="{{ asset('/images/build/2995.jpg') }}">
-                        <figcaption>
-                            <div class="fig-overlay">
-                                <h3> <a title="" href="portfolio-details.html"> Mieszkanie <br> <strong> 10.10.2018 </strong> </a> </h3>
-                                <p> <a title="" href="portfolio-details.html"> Olsztyn </a> </p>
-                            </div>
-                        </figcaption>
-                    </figure>
-                </article>
+
+                @foreach($gallery as $item)
+                    <article class="contrive-col-3 no-space contrive-portfolio-item house">
+                        <figure>
+                            <img title="{{ $item->name }}" alt="{{ $item->name }}" src="{{ asset("storage/{$item->image}") }}">
+{{--                            <figcaption>--}}
+{{--                                <div class="fig-overlay">--}}
+{{--                                    <h3> <a title="" href="portfolio-details.html"> Dom jednorodzinny <br> <strong> 08.03.2018</strong> </a> </h3>--}}
+{{--                                    <p> <a title="" href="portfolio-details.html"> Olsztyn </a> </p>--}}
+{{--                                </div>--}}
+{{--                            </figcaption>--}}
+                        </figure>
+                    </article>
+                @endforeach
             </div>
 
         </div>

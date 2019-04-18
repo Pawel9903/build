@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Handler\GalleryHandler;
 use Illuminate\Contracts\View\View;
 
 /**
@@ -12,11 +13,26 @@ use Illuminate\Contracts\View\View;
 class PageController extends Controller
 {
     /**
+     * @var GalleryHandler
+     */
+    private $galleryHandler;
+
+    /**
+     * PageController constructor.
+     * @param GalleryHandler $galleryHandler
+     */
+    public function __construct(GalleryHandler $galleryHandler)
+    {
+        $this->galleryHandler = $galleryHandler;
+    }
+
+    /**
      * @return View
      */
     public function index(): View
     {
-        return view('pages.index');
+        $gallery = $this->galleryHandler->getByPage(true);
+        return view('pages.index', ['gallery' => $gallery]);
     }
 
     /**
@@ -24,7 +40,8 @@ class PageController extends Controller
      */
     public function gallery(): View
     {
-        return view('pages.gallery');
+        $gallery = $this->galleryHandler->getAll();
+        return view('pages.gallery', ['gallery' => $gallery]);
     }
 
     /**

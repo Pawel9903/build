@@ -15,7 +15,7 @@
                 <h2> NAPISZ DO NAS </h2>
             </div>
 
-            @include('layout.partials.form.contactForm')
+            @include('layout.partials.form.workForm')
 
         </div>
 

@@ -23,28 +23,22 @@
             </div>
         </div>
 
-        {{--<div class="contrive-portfolio-filter">--}}
-        {{--<ul>--}}
-        {{--<li><a href="" title="" data-filter="*" class="current">All Projects</a></li>--}}
-        {{--<li><a href="" title="" data-filter=".web">Web Design</a></li>--}}
-        {{--<li><a href="" title="" data-filter=".psd">Photography</a></li>--}}
-        {{--<li><a href="" title="" data-filter=".ai">Illustration</a></li>--}}
-        {{--<li><a href="" title="" data-filter=".wp">Wordpress</a></li>--}}
-        {{--</ul>--}}
-        {{--</div>--}}
-
         <div class="contrive-portfolio-holder contrive-row contrive-no-space-cols">
             @foreach($gallery as $item)
-                <article class="contrive-col-4 no-space contrive-portfolio-item psd ai">
+                <article class="contrive-col-4 no-space contrive-portfolio-item psd ai gallery-element">
                     <figure>
-                        <img title="{{ $item->name }}" alt="{{ $item->name }}" src="{{ asset("storage/{$item->image}") }}">
-                        <figcaption>
-                            <div class="fig-overlay">
-                                <h3><a title="" href="portfolio-details.html"> Dom jednorodzinny <br> <strong>
-                                            08.03.2018</strong> </a></h3>
-                                <p><a title="" href="portfolio-details.html"> Olsztyn </a></p>
-                            </div>
-                        </figcaption>
+                        <a href="{{ asset("storage/{$item->image}") }}" data-lightbox="index"
+                           data-title="{{ $item->name }}">
+                            <img title="{{ $item->name }}" alt="{{ $item->name }}"
+                                 src="{{ asset("storage/{$item->image}") }}">
+                            <figcaption>
+                                <div class="fig-overlay">
+                                    <h3 class="gallery-item-header"> Dom jednorodzinny <br> <strong>
+                                                08.03.2018</strong></h3>
+                                    <p>Olsztyn</p>
+                                </div>
+                            </figcaption>
+                        </a>
                     </figure>
                 </article>
             @endforeach

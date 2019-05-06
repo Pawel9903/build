@@ -4,10 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Handler\MailHandler;
 use App\Validator\ContactMailValidate;
-use Illuminate\Http\JsonResponse;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Redirect;
 
 /**
  * Class MailController
@@ -21,6 +19,9 @@ class MailController extends Controller
      */
     private $handler;
 
+    /**
+     * @var ContactMailValidate
+     */
     private $contactValidator;
 
     /**

@@ -18,9 +18,11 @@
     "less-loader": "^4.1.0",
     "lodash": "^4.17.4",
     "popper.js": "^1.12",
+    "sass-loader": "^7.1.0",
     "vue": "^2.5.7"
   },
   "dependencies": {
+    "lightbox2": "^2.11.0",
     "moment": "^2.22.2",
     "oct-vue-form": "^1.0.0",
     "snazzy-info-window": "^1.1.1",

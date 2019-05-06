@@ -334,29 +334,14 @@
 
             <div class="contrive-topmargin-50"></div>
 
-            {{--<div class="contrive-portfolio-filter">--}}
-                {{--<ul>--}}
-                    {{--<li><a href="" title="" data-filter="*" class="current">Wszystkie projekty</a></li>--}}
-                    {{--<li><a href="" title="" data-filter=".house">Domy jednorodzinne</a></li>--}}
-                    {{--<li><a href="" title="" data-filter=".block">Bloki</a></li>--}}
-                    {{--<li><a href="" title="" data-filter=".hal">Hale</a></li>--}}
-                    {{--<li><a href="" title="" data-filter=".other">Inne</a></li>--}}
-                {{--</ul>--}}
-            {{--</div>--}}
-
-
             <div class="contrive-portfolio-holder contrive-row contrive-no-space-cols">
 
                 @foreach($gallery as $item)
-                    <article class="contrive-col-3 no-space contrive-portfolio-item house">
+                    <article class="contrive-col-3 no-space contrive-portfolio-item house index-gallery-element">
                         <figure>
-                            <img title="{{ $item->name }}" alt="{{ $item->name }}" src="{{ asset("storage/{$item->image}") }}">
-{{--                            <figcaption>--}}
-{{--                                <div class="fig-overlay">--}}
-{{--                                    <h3> <a title="" href="portfolio-details.html"> Dom jednorodzinny <br> <strong> 08.03.2018</strong> </a> </h3>--}}
-{{--                                    <p> <a title="" href="portfolio-details.html"> Olsztyn </a> </p>--}}
-{{--                                </div>--}}
-{{--                            </figcaption>--}}
+                            <a href="{{ asset("storage/{$item->image}") }}" data-lightbox="index" data-title="{{ $item->name }}" >
+                                <img title="{{ $item->name }}" alt="{{ $item->name }}" src="{{ asset("storage/{$item->image}") }}">
+                            </a>
                         </figure>
                     </article>
                 @endforeach
@@ -372,13 +357,6 @@
                 </div>
             </div>
         </div>
-
-        {{--<div class="contrive-row-fw light-text contrive-locate-bg">--}}
-            {{--<div class="contrive-google-map-toggle on-hide">--}}
-                {{--<h4> <a href="contact-2.html" target="_blank"><span class="et-icon icon-map-pin"></span> KONTAKT </a></h4>--}}
-            {{--</div>--}}
-        {{--</div>--}}
-    {{--</div>--}}
 
     @endsection
 

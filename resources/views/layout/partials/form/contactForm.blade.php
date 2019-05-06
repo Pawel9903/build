@@ -4,15 +4,15 @@
     <div class="contrive-form-process"></div>
     <div class="contrive-row">
         <div class="contrive-col-4">
-            <input type="text" value="" name="name" id="name" class="contrive-form-control required" placeholder="YOUR NAME">
+            <input type="text" value="" name="name" id="name" class="contrive-form-control required" placeholder="IMIĘ I NAZWISKO / FIRMA">
         </div>
         <div class="contrive-col-4">
-            <input type="email" value="" name="email" id="email" placeholder="YOUR EMAIL" class="contrive-form-control required email">
+            <input type="email" value="" name="email" id="email" placeholder="EMAIL" class="contrive-form-control required email">
         </div>
         <div class="contrive-col-4">
-            <input type="url" value="" name="url" id="url" placeholder="WEBSITE" class="contrive-form-control ignore">
+            <input type="url" value="" name="url" id="url" placeholder="TEL." class="contrive-form-control required">
         </div>
     </div>
-    <textarea rows="7" cols="2" name="description" id="description" class="contrive-form-control required"></textarea>
+    <textarea rows="7" cols="2" name="description" id="description" placeholder="WIADOMOŚĆ ..." class="contrive-form-control required"></textarea>
     <input type="submit" value="Send Now" class="submit" id="submit" name="submit">
 </form>

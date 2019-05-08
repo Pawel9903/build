@@ -6,9 +6,9 @@
 
                 <div class="contrive-col-12">
                     <div class="aligncenter">
-                        <img src="{{ asset('images/logo/fullLogo297x200.png') }}" alt="" title="">
+                        <img data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600" src="{{ asset('images/logo/fullLogo297x200.png') }}" alt="" title="">
                         <div class="contrive-topmargin-50"></div>
-                        <p class="footer-about-content"> Aenean volutpat dui id erat egestas, egestas placerat odio pretium. Suspendisse a dolor a dui <br> interdum gravida. Aenean ultrices convallis viverra. Nunc iaculis dictum eros, eutinc idunt <br> purus porttitor quis. Pellentesque ut mauris at ligula pellentesque convallis sit </p>
+                        <p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600" class="footer-about-content"> Aenean volutpat dui id erat egestas, egestas placerat odio pretium. Suspendisse a dolor a dui <br> interdum gravida. Aenean ultrices convallis viverra. Nunc iaculis dictum eros, eutinc idunt <br> purus porttitor quis. Pellentesque ut mauris at ligula pellentesque convallis sit </p>
                         <div class="contrive-topmargin-80"></div>
                     </div>
                 </div>
@@ -18,7 +18,7 @@
                         <h2 class="widget-title"> Kontakt </h2>
                         <div class="contrive-row">
                             <div class="contrive-col-4">
-                                <div class="contrive-contact-with-large-icon">
+                                <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600" class="contrive-contact-with-large-icon">
                                     <div class="contrive-contact-icon-holder">
                                         <i class="pe-7s-call"></i>
                                     </div>
@@ -30,7 +30,7 @@
                                 </div>
                             </div>
                             <div class="contrive-col-4">
-                                <div class="contrive-contact-with-large-icon">
+                                <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600" class="contrive-contact-with-large-icon">
                                     <div class="contrive-contact-icon-holder">
                                         <i class="icon icon-map"></i>
                                     </div>
@@ -42,7 +42,7 @@
                                 </div>
                             </div>
                             <div class="contrive-col-4">
-                                <div class="contrive-contact-with-large-icon">
+                                <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600" class="contrive-contact-with-large-icon">
                                     <div class="contrive-contact-icon-holder">
                                         <i class="icon icon-envelope"></i>
                                     </div>

@@ -9,11 +9,11 @@
                 <!-- *** LOGO STARTS *** -->
                 <div class="contrive-col-3">
                     <div id="logo">
-                        <a href="index.html" title="" class="contrive-standard-logo">
-                            <img class="logo-light" src="{{ asset('/images/logo/nameLogoWhite421x60.png') }}" alt="" title="">
+                        <a href="{{ route('index') }}" title="" class="contrive-standard-logo">
+                            <img class="logo-light" src="{{ asset($slider? '/images/logo/nameLogoWhite421x60.png' : '/images/logo/nameLogo421x60.png') }}" alt="" title="">
                             <img class="logo-dark" src="{{ asset('/images/logo/nameLogo421x60.png') }}" alt="" title="">
                         </a>
-                        <a href="index.html" title="" class="contrive-retina-logo">
+                        <a href="{{ route('index') }}" title="" class="contrive-retina-logo">
                             <img class="logo-light" src="{{ asset('/images/logo/nameLogo421x60.png') }}" alt="" title="">
                             <img class="logo-dark" src="{{ asset('/images/logo/nameLogo421x60.png') }}" alt="" title="">
                         </a>
@@ -22,15 +22,6 @@
                 <!-- *** LOGO END *** -->
 
                 <div class="contrive-col-9">
-{{--                    <div class="contrive-search-container">--}}
-{{--                        <a class="contrive-search" href="#contrive-search-form"> </a>--}}
-
-{{--                        <div id="contrive-search-form" class="contrive-search-form">--}}
-{{--                            <form>--}}
-{{--                                <input type="search" placeholder="SEARCH...">--}}
-{{--                            </form>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
 
                     <!-- *** MAIN NAVIGATION STARTS *** -->
                     <div id="contrive-responsive-menu-trigger"><i class="fa fa-bars"></i></div>

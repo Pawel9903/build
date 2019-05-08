@@ -14,5 +14,5 @@
         </div>
     </div>
     <textarea rows="7" cols="2" name="description" id="description" placeholder="WIADOMOŚĆ ..." class="contrive-form-control required"></textarea>
-    <input type="submit" value="Send Now" class="submit" id="submit" name="submit">
+    <input type="submit" value="Wyślij" class="submit" id="submit" name="submit">
 </form>

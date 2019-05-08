@@ -25,5 +25,5 @@
             <input type="file" name="file" id="url" class="contrive-form-control ignore">
         </div>
     </div>
-    <input type="submit" value="Send Now" class="submit" id="submit" name="submit">
+    <input type="submit" value="Wyślij" class="submit" id="submit" name="submit">
 </form>

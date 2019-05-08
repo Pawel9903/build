@@ -10,7 +10,7 @@
 
         <div class="contrive-container">
 
-            <div class="contrive-heading center">
+            <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600" class="contrive-heading center">
                 <h6> Szukasz pracy? </h6>
                 <h2> NAPISZ DO NAS </h2>
             </div>

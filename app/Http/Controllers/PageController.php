@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Handler\GalleryHandler;
+use App\Handler\PartnerHandler;
 use Illuminate\Contracts\View\View;
 
 /**
@@ -18,12 +19,19 @@ class PageController extends Controller
     private $galleryHandler;
 
     /**
+     * @var PartnerHandler
+     */
+    private $partnerHandler;
+
+    /**
      * PageController constructor.
      * @param GalleryHandler $galleryHandler
+     * @param PartnerHandler $partnerHandler
      */
-    public function __construct(GalleryHandler $galleryHandler)
+    public function __construct(GalleryHandler $galleryHandler, PartnerHandler $partnerHandler)
     {
         $this->galleryHandler = $galleryHandler;
+        $this->partnerHandler = $partnerHandler;
     }
 
     /**
@@ -31,8 +39,11 @@ class PageController extends Controller
      */
     public function index(): View
     {
-        $gallery = $this->galleryHandler->getByPage(true);
-        return view('pages.index', ['gallery' => $gallery]);
+        return view('pages.index', [
+            'gallery' => $this->galleryHandler->getByPage(true),
+            'partners' => $this->partnerHandler->getAll(),
+            'slider' => true
+        ]);
     }
 
     /**
@@ -41,7 +52,7 @@ class PageController extends Controller
     public function gallery(): View
     {
         $gallery = $this->galleryHandler->getAll();
-        return view('pages.gallery', ['gallery' => $gallery]);
+        return view('pages.gallery', ['gallery' => $gallery, 'slider' => false]);
     }
 
     /**
@@ -49,7 +60,7 @@ class PageController extends Controller
      */
     public function services(): View
     {
-        return view('pages.services');
+        return view('pages.services', ['slider' => false]);
     }
 
     /**
@@ -57,7 +68,7 @@ class PageController extends Controller
      */
     public function work(): View
     {
-        return view('pages.work');
+        return view('pages.work', ['slider' => false]);
     }
 
     /**
@@ -65,6 +76,6 @@ class PageController extends Controller
      */
     public function contact(): View
     {
-        return view('pages.contact');
+        return view('pages.contact', ['slider' => false]);
     }
 }

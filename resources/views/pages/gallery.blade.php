@@ -9,12 +9,12 @@
         <div class="contrive-row-fw contrive-fw-no-padding">
             <div class="contrive-container">
 
-                <div class="contrive-heading center">
+                <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600" class="contrive-heading center">
                     <h6> Nasze </h6>
                     <h2> Projekty </h2>
                 </div>
 
-                <p class="aligncenter contrive-custom-para"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600" class="aligncenter contrive-custom-para"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Morbi non tincidunt orci. In non vestibulum orci. <br> Praesent ac velit nisl. <a href="" title="">Maecenas
                         facilisis </a> tincidunt odio sollicitudin mattis. </p>
 
@@ -32,7 +32,7 @@
                             <img title="{{ $item->name }}" alt="{{ $item->name }}"
                                  src="{{ asset("storage/{$item->image}") }}">
                             <figcaption>
-                                <div class="fig-overlay">
+                                <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600" class="fig-overlay">
                                     <h3 class="gallery-item-header"> Dom jednorodzinny <br> <strong>
                                                 08.03.2018</strong></h3>
                                     <p>Olsztyn</p>

@@ -9,7 +9,6 @@
         @include('layout.partials.footer')
     </div>
     <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('js/theme.js') }}"></script>
     @yield('page_js')
 </body>
 </html>

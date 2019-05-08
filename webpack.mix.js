@@ -30,8 +30,9 @@ mix.sass('resources/sass/custom.scss', 'public/css/custom.css')
         'resources/theme/js/rs-plugin/css/navigation.css',
         'resources/theme/css/responsive.css',
         'resources/theme/css/colors/red.css',
-        'node_modules/lightbox2/src/css/lightbox.css'
-    ], 'public/css/theme.css')
+        'node_modules/lightbox2/src/css/lightbox.css',
+        'node_modules/aos/dist/aos.css'
+    ], 'public/css/app.css')
     .scripts([
         'resources/theme/js/jquery.min.js',
         'resources/theme/js/rs-plugin/js/jquery.themepunch.tools.min.js',
@@ -50,5 +51,7 @@ mix.sass('resources/sass/custom.scss', 'public/css/custom.css')
         'resources/theme/js/isotope.min.js',
         'resources/theme/js/functions.js',
         'resources/theme/js/switcher.js',
-        'node_modules/lightbox2/src/js/lightbox.js'
-    ], 'public/js/theme.js');
+        'node_modules/lightbox2/src/js/lightbox.js',
+        'node_modules/aos/dist/aos.js',
+        'resources/js/custom/custom.js',
+    ], 'public/js/app.js');

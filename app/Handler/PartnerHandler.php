@@ -3,30 +3,31 @@
 namespace App\Handler;
 
 use App\Gallery;
+use App\Partner;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Http\Request;
 
 /**
- * Class GalleryHandler
+ * Class PartnerHandler
  * @package App\Handler
  * @author Paweł Ged <pawelged9903@gmail.com>
  */
-class GalleryHandler extends Handler
+class PartnerHandler extends Handler
 {
     /**
-     * @var Gallery
+     * @var Partner
      */
-    private $gallery;
+    private $partner;
 
     /**
      * PageHandler constructor.
-     * @param Gallery $gallery
+     * @param Partner $partner
      */
-    public function __construct(Gallery $gallery)
+    public function __construct(Partner $partner)
     {
         parent::__construct();
 
-        $this->gallery = $gallery;
+        $this->partner = $partner;
     }
 
     /**
@@ -34,16 +35,7 @@ class GalleryHandler extends Handler
      */
     public function getAll(): Collection
     {
-        return $this->gallery::all();
-    }
-
-    /**
-     * @param bool $isIndex
-     * @return Collection
-     */
-    public function getByPage(bool $isIndex = false): Collection
-    {
-        return $this->gallery::findByPage($isIndex)->get();
+        return $this->partner::all();
     }
 
     /**

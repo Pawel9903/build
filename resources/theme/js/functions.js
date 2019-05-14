@@ -72,7 +72,7 @@ var contrive = contrive || {};
 
 			if( !$('body').hasClass('no-sticky') ) {
 
-				if( $(window).scrollTop() > 0 ) {
+				if( $(window).scrollTop() >= 0 ) {
 					$(".header-main","#contrive-masthead").addClass("sticky");
 				} else {
 					if( $(".header-main","#contrive-masthead").hasClass("sticky") ) {

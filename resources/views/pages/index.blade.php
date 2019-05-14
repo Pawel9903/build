@@ -7,13 +7,13 @@
     <!-- *** SLIDER WRAP STARTS *** -->
     <div class="contrive-slider-wrap">
         <div id="rev_slider_8_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="contrive-kenburns"
-             style="background-color:transparent;padding:0px;">
+             style="background-color:transparent;padding:0;">
             <!-- START REVOLUTION SLIDER 5.0.8.5 fullscreen mode -->
             <div id="rev_slider_8_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.0.8.5">
                 <ul>
                     <!-- SLIDE  -->
                     <li data-index="rs-24" data-transition="fade" data-slotamount="default" data-easein="default"
-                        data-easeout="default" data-masterspeed="default" data-thumb="http://placehold.it/100x50/"
+                        data-easeout="default" data-masterspeed="default"
                         data-rotate="0" data-saveperformance="off" data-title="Slide" data-description="">
                         <!-- MAIN IMAGE -->
                         <img src="{{ asset('/images/build/2940.jpg') }}" alt="" width="1920" height="1080"
@@ -79,23 +79,6 @@
                              style="z-index: 7; white-space: nowrap;">USŁUG OGÓLNOBUDOWLANYCH
                         </div>
 
-                        <!-- LAYER NR. 4 -->
-                        <div class="tp-caption contrive-rev-btn tp-resizeme rs-parallaxlevel-0"
-                             id="slide-24-layer-4"
-                             data-x="center" data-hoffset=""
-                             data-y="520"
-                             data-width="['none','none','none','none']"
-                             data-height="['none','none','none','none']"
-                             data-transform_idle="o:1;"
-                             data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power2.easeInOut;"
-                             data-transform_out="opacity:0;s:300;s:300;"
-                             data-mask_in="x:0px;y:[100%];"
-                             data-start="3000"
-                             data-responsive_offset="on"
-                             style="z-index: 8;">
-                            <div class="rs-looped disabled"> SPRAWDŹ <i class="pe-7s-right-arrow"></i></div>
-                        </div>
-
                         <!-- LAYER NR. 5 -->
                         <div class="tp-caption contrive-rev-home-icon tp-resizeme rs-parallaxlevel-0"
                              id="slide-24-layer-14"
@@ -113,7 +96,7 @@
                     </li>
                     <!-- SLIDE  -->
                     <li data-index="rs-25" data-transition="fade" data-slotamount="default" data-easein="default"
-                        data-easeout="default" data-masterspeed="default" data-thumb="http://placehold.it/100x50/"
+                        data-easeout="default" data-masterspeed="default"
                         data-rotate="0" data-saveperformance="off" data-title="Slide" data-description="">
                         <!-- MAIN IMAGE -->
                         <img src="{{ asset('/images/build/1223.jpg') }}" alt="" width="1920" height="1080"
@@ -177,24 +160,6 @@
                              data-responsive_offset="on"
                              style="z-index: 7; white-space: nowrap;">Firma z historią
                         </div>
-
-                        <!-- LAYER NR. 4 -->
-                        <div class="tp-caption tp-resizeme rs-parallaxlevel-0"
-                             id="slide-25-layer-6"
-                             data-x="center" data-hoffset=""
-                             data-y="456"
-                             data-width="['none','none','none','none']"
-                             data-height="['none','none','none','none']"
-                             data-transform_idle="o:1;"
-
-                             data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power2.easeInOut;"
-                             data-transform_out="opacity:0;s:300;s:300;"
-                             data-mask_in="x:0px;y:[100%];"
-                             data-start="3000"
-                             data-responsive_offset="on"
-                             style="z-index: 8;"><img src="../../assets/theme/images/revolution/purchase-now-btn.png"
-                                                      alt="" width="170" height="50" data-ww="170px" data-hh="50px"
-                                                      data-no-retina></div>
 
                         <!-- LAYER NR. 5 -->
                         <div class="tp-caption contrive-ken-title1 tp-resizeme rs-parallaxlevel-0"
@@ -286,8 +251,7 @@
         <div class="contrive-container">
 
             <div class="contrive-heading center">
-                <h6> Kim jesteśmy ? </h6>
-                <h2> W SKRÓCIE </h2>
+                <h1> BUD-GED </h1>
             </div>
 
             <p class="aligncenter contrive-custom-para"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
@@ -505,7 +469,7 @@
                             hide_onleave: true,
                             hide_delay: 200,
                             hide_delay_mobile: 1200,
-                            tmp: '<div class="tp-title-wrap">  	<div class="tp-arr-imgholder"></div>    <div class="tp-arr-img-over"></div>	<span class="tp-arr-titleholder"></span> </div>',
+                            tmp: '<div class="tp-title-wrap"><div class="tp-arr-imgholder"></div><div class="tp-arr-img-over"></div><span class="tp-arr-titleholder"></span> </div>',
                             left: {
                                 h_align: "left",
                                 v_align: "center",

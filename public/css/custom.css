@@ -29,6 +29,10 @@
   height: 500px;
 }
 
+.header-main.sticky {
+  position: fixed !important;
+}
+
 .index-gallery-element {
   cursor: pointer;
 }
@@ -47,6 +51,10 @@
 
 .gallery-item-header {
   color: #fff;
+}
+
+.image-description {
+  margin-bottom: 30px;
 }
 
 .cv-label {

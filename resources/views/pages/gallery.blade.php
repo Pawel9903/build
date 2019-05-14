@@ -29,13 +29,11 @@
                     <figure>
                         <a href="{{ asset("storage/{$item->image}") }}" data-lightbox="index"
                            data-title="{{ $item->name }}">
-                            <img title="{{ $item->name }}" alt="{{ $item->name }}"
+                            <img class="" title="{{ $item->name }}" alt="{{ $item->name }}"
                                  src="{{ asset("storage/{$item->image}") }}">
                             <figcaption>
-                                <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600" class="fig-overlay">
-                                    <h3 class="gallery-item-header"> Dom jednorodzinny <br> <strong>
-                                                08.03.2018</strong></h3>
-                                    <p>Olsztyn</p>
+                                <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600" class="fig-overlay image-description">
+                                    <h3 class="gallery-item-header">{{ $item->name }}</h3>
                                 </div>
                             </figcaption>
                         </a>

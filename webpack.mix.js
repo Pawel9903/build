@@ -29,7 +29,7 @@ mix.sass('resources/sass/custom.scss', 'public/css/custom.css')
         'resources/theme/js/rs-plugin/css/layers.css',
         'resources/theme/js/rs-plugin/css/navigation.css',
         'resources/theme/css/responsive.css',
-        'resources/theme/css/colors/red.css',
+        'resources/theme/css/colors/grey.css',
         'node_modules/lightbox2/src/css/lightbox.css',
         'node_modules/aos/dist/aos.css'
     ], 'public/css/app.css')

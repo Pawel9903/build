@@ -1,4 +1,7 @@
 @extends('layout.master')
+@section('title', 'BUD GED - Usługi ogólnobudowlane')
+@section('keywords', 'usługi ogólnobudowlane, budowa, firma, dom, koparka,  jednorodzinny, wypożyczanie sprzętu, roboty ziemne')
+@section('description', 'BUD GED - usługi ogólnobudowlane, roboty ziemne, wypożyczanie sprzętu budowlanego')
 @section('content')
 
     <!-- *** CONTENT WRAP STARTS *** -->
@@ -244,14 +247,12 @@
         </div>
     </div>
 
-    <div class="contrive-topmargin-120"></div>
-
     <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600"
          class="contrive-row-fw contrive-fw-no-padding">
         <div class="contrive-container">
 
             <div class="contrive-heading center">
-                <h1> BUD-GED </h1>
+                <h1>BUD GED</h1>
             </div>
 
             <p class="aligncenter contrive-custom-para"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
@@ -269,7 +270,6 @@
         <div class="contrive-row">
 
             <div class="contrive-col-6">
-                {{--<img src="{{ asset('/images/logo/fullLogo297x200.png') }}" alt="" title="">--}}
             </div>
 
             <div class="contrive-col-6 contrive-about-cont">
@@ -326,8 +326,6 @@
 
     </div>
 
-    <div class="contrive-topmargin-120"></div>
-
     <div class="contrive-row-fw contrive-fw-no-padding">
         <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600" class="contrive-heading center">
             <h6> Wybrane </h6>
@@ -351,10 +349,8 @@
                             <img title="{{ $item->name }}" alt="{{ $item->name }}"
                                  src="{{ asset("storage/{$item->image}") }}">
                             <figcaption>
-                                <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600" class="fig-overlay">
-                                    <h3 class="gallery-item-header"> Dom jednorodzinny <br> <strong>
-                                            08.03.2018</strong></h3>
-                                    <p>Olsztyn</p>
+                                <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600" class="fig-overlay image-description">
+                                    <h3 class="gallery-item-header">{{ $item->name }}</h3>
                                 </div>
                             </figcaption>
                         </a>
@@ -369,11 +365,11 @@
         <div class="contrive-container">
             <div class="contrive-info-bar style3">
                 <h3> CHCESZ ZOBACZYĆ WIĘCEJ? </h3>
-                <a href="" title="" class="contrive-button stroke-style light hvr-shutter-out-horizontal hvr-effect">
-                    Przejdź do galerii </a>
+                <a href="{{ route('gallery') }}" title="" class="contrive-button stroke-style light hvr-shutter-out-horizontal hvr-effect">Przejdź do galerii </a>
             </div>
         </div>
     </div>
+
 
     <div class="contrive-row-fw contrive-grey-bg">
         <div class="contrive-container">
@@ -464,12 +460,12 @@
                         onHoverStop: "off",
                         arrows: {
                             style: "erinyen",
-                            enable: true,
+                            enable: false,
                             hide_onmobile: false,
                             hide_onleave: true,
                             hide_delay: 200,
                             hide_delay_mobile: 1200,
-                            tmp: '<div class="tp-title-wrap"><div class="tp-arr-imgholder"></div><div class="tp-arr-img-over"></div><span class="tp-arr-titleholder"></span> </div>',
+                            tmp: '<div class="tp-title-wrap"><div class="tp-arr-imgholder"></div><div class="tp-arr-img-over"></div><span class="tp-arr-titleholder"></span></div>',
                             left: {
                                 h_align: "left",
                                 v_align: "center",

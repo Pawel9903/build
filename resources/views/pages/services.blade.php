@@ -1,5 +1,7 @@
 @extends('layout.master')
-
+@section('title', 'BUD GED - Nasze usługi')
+@section('keywords', 'usługi ogólnobudowlane, budowa, firma, dom, koparka,  jednorodzinny, wypożyczanie sprzętu, roboty ziemne')
+@section('description', 'BUD GED - usługi ogólnobudowlane, roboty ziemne, wypożyczanie sprzętu budowlanego.')
 @section('content')
 
     @include('layout.partials.topHeaderPage', ['header' => 'USŁUGI'])

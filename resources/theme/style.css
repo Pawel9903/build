@@ -851,7 +851,7 @@ header#contrive-masthead.contrive-std-header {
 	position: absolute;
 	left: 0;
 	top: 0;
-	background: url(images/scale-up.png) repeat-x;
+	/*background: url(images/scale-up.png) repeat-x;*/
 	width: 100%;
 	height: 35px;
 	opacity: 0.6;
@@ -2556,7 +2556,7 @@ footer#contrive-footer .contrive-footer-widgets {
 	float: left;
 	color: #ffffff;
 	font-size: 13px;
-	background: #1e1e1e url(images/showcase/footer-map.png) center center no-repeat;
+	background: #1e1e1e center center no-repeat;
 }
 footer#contrive-footer .contrive-footer-widgets p {
 	color: #ffffff;
@@ -3001,7 +3001,7 @@ Footer Copyrights
 }
 
 .contrive-row-fw.contrive-polygon-parallax {
-	background: url(images/parallax/polygon-parallax.png) no-repeat; 
+	/*background: url(images/parallax/polygon-parallax.png) no-repeat;*/
 	padding: 46px 0 40px;
 }
 .contrive-row-fw.contrive-related-projects {
@@ -3089,7 +3089,7 @@ h6.contrive-custom-head {
 	padding-top: 80px;
 }
 .contrive-row-fw.contrive-scale-bg {
-	background: #f3f4f4 url(images/scale-up.png) left top repeat-x; 
+	/*background: #f3f4f4 url(images/scale-up.png) left top repeat-x;*/
 	padding-top: 80px;
 }
 .contrive-scale-bg .contrive-col-6 {

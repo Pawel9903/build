@@ -1,5 +1,7 @@
 @extends('layout.master')
-
+@section('title', 'BUD GED - Kontakt')
+@section('keywords', 'usługi ogólnobudowlane, budowa, firma, dom, koparka,  jednorodzinny, wypożyczanie sprzętu, roboty ziemne')
+@section('description', 'BUD GED - Jeżeli chcesz skożystać z naszych usług skontaktuj się z nami i sprawdź naszą ofertę.')
 @section('content')
 
     @include('layout.partials.topHeaderPage', ['header' => 'KONTAKT'])

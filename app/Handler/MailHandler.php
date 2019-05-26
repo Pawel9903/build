@@ -5,6 +5,7 @@ namespace App\Handler;
 use App\Mail\ContactMail;
 use App\Mail\WorkMail;
 use App\Transformer\ContactMailTransformer;
+use App\Transformer\WorkMailTransformer;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Handler\Handler as Handler;
@@ -13,6 +14,7 @@ use App\Handler\Handler as Handler;
  * Class MailHandler
  * @package App\Handler
  * @author Paweł Ged <pawelged9903@gmail.com>
+ * @method MailHandler handle(Request $request = null)
  */
 class MailHandler extends Handler
 {
@@ -27,6 +29,11 @@ class MailHandler extends Handler
     private $contactMailTransformer;
 
     /**
+     * @var WorkMailTransformer
+     */
+    private $workMailTransformer;
+
+    /**
      * @var WorkMail
      */
     private $workMail;
@@ -37,13 +44,14 @@ class MailHandler extends Handler
      * @param WorkMail $workMail
      * @param ContactMailTransformer $contactMailTransformer
      */
-    public function __construct(ContactMail $contactMail, WorkMail $workMail, ContactMailTransformer $contactMailTransformer)
+    public function __construct(ContactMail $contactMail, WorkMail $workMail, ContactMailTransformer $contactMailTransformer, WorkMailTransformer $workMailTransformer)
     {
         parent::__construct();
 
         $this->contactMail = $contactMail;
         $this->workMail = $workMail;
         $this->contactMailTransformer = $contactMailTransformer;
+        $this->workMailTransformer = $workMailTransformer;
     }
 
     /**
@@ -61,8 +69,21 @@ class MailHandler extends Handler
      */
     public function sendContact(): bool
     {
+        Mail::to(env('MAIL_FROM_ADDRESS', 'pawelged9903@gmail.com'))
+            ->send($this->contactMailTransformer->transform($this->request->all()));
+        return true;
+    }
 
-        Mail::to(env('MAIL_FROM_ADDRESS', 'pawelged9903@gmail.com'))->send($this->contactMailTransformer->transform($this->request->all()));
+    /**
+     * @return bool
+     */
+    public function sendWork(): bool
+    {
+        Mail::to(env('MAIL_FROM_ADDRESS', 'pawelged9903@gmail.com'))
+            ->send($this->workMailTransformer->transform([
+                'request' => $this->request->all(),
+                'file' => $this->request->hasFile('file')? $this->request->file('file') : null
+            ]));
         return true;
     }
 }

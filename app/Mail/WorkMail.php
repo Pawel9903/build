@@ -6,6 +6,7 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
+use Symfony\Component\HttpFoundation\File\UploadedFile;
 
 /**
  * Class WorkMail
@@ -14,17 +15,12 @@ use Illuminate\Contracts\Queue\ShouldQueue;
  */
 class WorkMail extends Mailable
 {
-    use Queueable, SerializesModels;
+    use Queueable, SerializesModels, MailTrait;
 
     /**
-     * Create a new message instance.
-     *
-     * @return void
+     * @var UploadedFile|null
      */
-    public function __construct()
-    {
-        //
-    }
+    private $file;
 
     /**
      * Build the message.
@@ -33,6 +29,37 @@ class WorkMail extends Mailable
      */
     public function build()
     {
-        return $this->view('view.name');
+        $mail = $this->markdown('mail.mail', [
+            'name' => $this->name,
+            'email' => $this->email,
+            'description' => $this->description,
+            'phone' => $this->phone
+        ]);
+        if($this->file){
+            $mail->attach($this->file->getRealPath(),
+                [
+                    'as' => $this->file->getClientOriginalName(),
+                    'mime' => $this->file->getClientMimeType(),
+                ]);
+        }
+        return $mail;
+    }
+
+    /**
+     * @return UploadedFile|null
+     */
+    public function getFile(): ?UploadedFile
+    {
+        return $this->file;
+    }
+
+    /**
+     * @param UploadedFile|null $file
+     * @return $this
+     */
+    public function setFile(?UploadedFile $file): self
+    {
+        $this->file = $file;
+        return $this;
     }
 }

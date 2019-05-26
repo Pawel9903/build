@@ -1,4 +1,4 @@
-<form class="contrive-contact-form" method="post" action="{{ route('contact_send') }}">
+<form class="contrive-contact-form" enctype="multipart/form-data" method="post" action="{{ route('work_send') }}">
     @csrf
     <div class="contrive-contact-form-result"></div>
     <div class="contrive-form-process"></div>
@@ -22,7 +22,8 @@
             <p>Dodaj CV</p>
         </div>
         <div class="contrive-col-4">
-            <input type="file" name="file" id="url" class="contrive-form-control ignore">
+            <input type="file" name="file" id="url" class="contrive-form-control ignore" accept="application/pdf,application/msword,
+  application/vnd.openxmlformats-officedocument.wordprocessingml.document">
         </div>
     </div>
     <input type="submit" value="Wyślij" class="submit" id="submit" name="submit">

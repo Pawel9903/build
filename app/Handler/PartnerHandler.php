@@ -2,7 +2,6 @@
 
 namespace App\Handler;
 
-use App\Gallery;
 use App\Partner;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Http\Request;
@@ -11,6 +10,7 @@ use Illuminate\Http\Request;
  * Class PartnerHandler
  * @package App\Handler
  * @author Paweł Ged <pawelged9903@gmail.com>
+ * @method PartnerHandler handle(Request $request = null)
  */
 class PartnerHandler extends Handler
 {

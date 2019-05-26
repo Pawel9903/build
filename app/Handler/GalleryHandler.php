@@ -10,6 +10,7 @@ use Illuminate\Http\Request;
  * Class GalleryHandler
  * @package App\Handler
  * @author Paweł Ged <pawelged9903@gmail.com>
+ * @method GalleryHandler handle(Request $request = null)
  */
 class GalleryHandler extends Handler
 {

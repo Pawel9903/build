@@ -12,7 +12,7 @@
                    class="contrive-form-control ignore email">
         </div>
         <div class="contrive-col-4">
-            <input type="url" value="" name="url" id="url" placeholder="TEL." class="contrive-form-control required">
+            <input type="text" value="" name="tel" id="tel" placeholder="TEL." class="contrive-form-control required">
         </div>
     </div>
     <textarea rows="7" cols="2" name="description" placeholder="WIADMOMOŚĆ ..." id="description"
@@ -22,7 +22,7 @@
             <p>Dodaj CV</p>
         </div>
         <div class="contrive-col-4">
-            <input type="file" name="file" id="url" class="contrive-form-control ignore" accept="application/pdf,application/msword,
+            <input type="file" name="file" class="contrive-form-control ignore" accept="application/pdf,application/msword,
   application/vnd.openxmlformats-officedocument.wordprocessingml.document">
         </div>
     </div>

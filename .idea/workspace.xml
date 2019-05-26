@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43fdb69f-22f8-46ed-96b4-b5e59a1512db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Transformer/WorkMailTransformer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Validator/WorkMailValidate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Handler/GalleryHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Handler/GalleryHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Handler/MailHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Handler/MailHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Handler/PartnerHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Handler/PartnerHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MailController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MailController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Mail/WorkMail.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mail/WorkMail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout/partials/form/workForm.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/partials/form/workForm.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-    </list>
+    <list default="true" id="43fdb69f-22f8-46ed-96b4-b5e59a1512db" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -365,12 +352,12 @@
       <workItem from="1558020850256" duration="809000" />
       <workItem from="1558856903116" duration="46000" />
       <workItem from="1558857129541" duration="17000" />
-      <workItem from="1558857259707" duration="3855000" />
+      <workItem from="1558857259707" duration="4154000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96277000" />
+    <option name="totallyTimeSpent" value="96576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="27" width="1296" height="741" extended-state="6" />

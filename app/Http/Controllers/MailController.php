@@ -61,7 +61,6 @@ class MailController extends Controller
      */
     public function work(Request $request)
     {
-        dd($request);
         $this->workMailValidator->validate($request);
         $this->handler->handle($request)->sendContact();
 

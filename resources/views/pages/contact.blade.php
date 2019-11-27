@@ -24,12 +24,6 @@
         <div class="contrive-topmargin-120"></div>
 
         <div id="google-map">
-{{--            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2352.722911641476!2d20.01225085108103!3d53.86557497999344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e29c478a9bcb01%3A0x542ab06055608bf0!2zxbthYmkgUsOzZyA0MywgMTQtMzAwIMW7YWJpIFLDs2c!5e0!3m2!1spl!2spl!4v1554035535884!5m2!1spl!2spl" width="1000" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>--}}
-{{--            <div class="contrive-map-holder" data-zoom="14" data-width="100%" data-address="Melbourne, Australia"--}}
-{{--                 data-description="<h5>Hi, we are contrive</h5><p>Lorem Ipsum is simply dummy text of the <strong> printing </strong> and <strong> typesetting </strong> <br> industry. <strong> Lorem Ipsum </strong> has been the industry's standard dummy <br> text ever since the <strong> 1500s,</strong> when an unknown printer took a <strong> galley </strong> <br> of type and scrambled it to make a type specimen book. </p></div>"--}}
-{{--                 data-icon="images/map-icon.png"--}}
-{{--                 data-iconsize="60,83">--}}
-{{--            </div>--}}
         </div>
 
     </div>

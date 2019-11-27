@@ -41,6 +41,10 @@
   height: 240px !important;
 }
 
+#footer-form-message {
+  display: none;
+}
+
 .gallery-element {
   cursor: pointer;
 }
@@ -71,5 +75,11 @@
 
 .cv-label p {
   margin-top: 12px;
+}
+
+.contrive-contact-form-result {
+  font-weight: bold;
+  color: green;
+  text-align: center;
 }
 

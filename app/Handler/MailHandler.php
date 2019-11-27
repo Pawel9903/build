@@ -43,8 +43,12 @@ class MailHandler extends Handler
      * @param ContactMail $contactMail
      * @param WorkMail $workMail
      * @param ContactMailTransformer $contactMailTransformer
+     * @param WorkMailTransformer $workMailTransformer
      */
-    public function __construct(ContactMail $contactMail, WorkMail $workMail, ContactMailTransformer $contactMailTransformer, WorkMailTransformer $workMailTransformer)
+    public function __construct(ContactMail $contactMail,
+                                WorkMail $workMail,
+                                ContactMailTransformer $contactMailTransformer,
+                                WorkMailTransformer $workMailTransformer)
     {
         parent::__construct();
 

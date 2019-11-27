@@ -52,7 +52,7 @@ class MailController extends Controller
         $this->contactValidator->validate($request);
         $this->handler->handle($request)->sendContact();
 
-        return response()->json('success',200);
+        return response()->json('Twoja wiadomość została wysłana. Postaramy się odpowiedzieć jak najszybciej, dziękujemy.',200);
     }
 
     /**
@@ -62,8 +62,8 @@ class MailController extends Controller
     public function work(Request $request)
     {
         $this->workMailValidator->validate($request);
-        $this->handler->handle($request)->sendContact();
+        $this->handler->handle($request)->sendWork();
 
-        return response()->json('success',200);
+        return response()->json('Twoja wiadomość została wysłana. Postaramy się odpowiedzieć jak najszybciej, dziękujemy.',200);
     }
 }

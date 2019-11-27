@@ -1,0 +1,11 @@
+
+class_name: ApiTester
+modules:
+  enabled:
+  - Asserts
+  - REST:
+      url: http://budged.vh
+      depends: Laravel5
+      part: Json
+  - Laravel5:
+      environment_file: .env.testing

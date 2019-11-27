@@ -59,6 +59,7 @@
                 <div class="contrive-col-5">
                     <aside class="widget widget_recent_entries">
                         <h2 class="widget-title"> Napisz do nas </h2>
+                        <div class="contrive-contact-form-result" id="footer-form-message">Twoja wiadomość została wysłana. Postaramy się odpowiedzieć jak najszybciej, dziękujemy.</div>
                         @include('layout.partials.form.footerForm')
                     </aside>
                 </div>

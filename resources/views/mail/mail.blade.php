@@ -5,14 +5,13 @@
         @endcomponent
     @endslot
 
-    @slot('body')
-        <h4>Od: {{ $name }}</h4>
-        <h4>Email: {{ $email }}</h4>
-        <h4>Tel: {{ $phone }}</h4>
-        @section('body')
-            <p>Wiadomość: {{ $description }} }}</p>
-        @endsection
-    @endslot
+    Od: {{ $name }}
+    <br>
+    Email: {{ $email }}
+    <br>
+    Tel: {{ $phone }}
+    <br>
+    Wiadomość: {{ $description }}
 
     @slot('footer')
         @component('mail::footer')

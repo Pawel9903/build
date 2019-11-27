@@ -1,9 +1,10 @@
-<?php declare(strict_types = 1);
+<?php declare(strict_types=1);
 
 namespace App\Transformer;
 
 use App\Mail\ContactMail;
 use App\Mail\WorkMail;
+use Exception;
 
 /**
  * Class WorkMailTransformer
@@ -14,10 +15,15 @@ class WorkMailTransformer implements TransformerInterface
 {
     /**
      * @param array $data
-     * @return mixed
+     * @return WorkMail|null
+     * @throws Exception
      */
-    public function transform(array $data)
+    public function transform(array $data): ?WorkMail
     {
+        if(!$this->isDataCorrect($data)) {
+            return null;
+        }
+
         $workMail = new WorkMail();
         $workMail->setName($data['request']['name'])
             ->setEmail($data['request']['email'])
@@ -25,5 +31,14 @@ class WorkMailTransformer implements TransformerInterface
             ->setFile($data['file']);
 
         return $workMail;
+    }
+
+    /**
+     * @param array $data
+     * @return bool
+     */
+    public function isDataCorrect(array $data): bool
+    {
+        return empty($data['request'])? false : true;
     }
 }

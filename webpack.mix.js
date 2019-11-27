@@ -45,7 +45,8 @@ mix.sass('resources/sass/custom.scss', 'public/css/custom.css')
         'resources/theme/js/rs-plugin/js/extensions/revolution.extension.navigation.min.js',
         'resources/theme/js/rs-plugin/js/extensions/revolution.extension.parallax.min.js',
         'resources/theme/js/rs-plugin/js/extensions/revolution.extension.slideanims.min.js',
-        'resources/theme/js/rs-plugin/js/extensions/revolution.extension.video.min.js',
+        'resources/theme/js/rs-plu' +
+        'gin/js/extensions/revolution.extension.video.min.js',
         'resources/theme/js/jquery.infinitescroll.min.js',
         'resources/theme/js/plugins.js',
         'resources/theme/js/isotope.min.js',

@@ -22,7 +22,7 @@ class ContactMail extends Mailable
      */
     public function build()
     {
-        return $this->markdown('mail.mail', [
+        return $this->subject('www.bud-ged.com - formularz kontaktowy')->from('kontakt@bud-ged.com')->markdown('mail.mail', [
             'name' => $this->name,
             'email' => $this->email,
             'description' => $this->description,

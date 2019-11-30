@@ -29,7 +29,7 @@ class WorkMail extends Mailable
      */
     public function build()
     {
-        $mail = $this->markdown('mail.mail', [
+        $mail = $this->subject('www.bud-ged.com - formularz praca')->from('kontakt@bud-ged.com')->markdown('mail.mail', [
             'name' => $this->name,
             'email' => $this->email,
             'description' => $this->description,

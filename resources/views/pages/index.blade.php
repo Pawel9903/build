@@ -1,7 +1,7 @@
 @extends('layout.master')
-@section('title', 'BUD GED - Usługi ogólnobudowlane')
+@section('title', 'BUD GED Usługi budowlane, specjalistyczny sprzęt')
 @section('keywords', 'usługi ogólnobudowlane, budowa, firma, dom, koparka,  jednorodzinny, wypożyczanie sprzętu, roboty ziemne')
-@section('description', 'BUD GED - usługi ogólnobudowlane, roboty ziemne, wypożyczanie sprzętu budowlanego')
+@section('description', 'BUD-GED jest profesjonalną firmą budowlaną instniejącą ponad 10 lat na rynku.')
 @section('content')
 
     <!-- *** CONTENT WRAP STARTS *** -->
@@ -61,7 +61,7 @@
                              data-splitin="none"
                              data-splitout="none"
                              data-responsive_offset="on"
-                             style="z-index: 6; white-space: nowrap;">SZEROKI ZAKRES
+                             style="z-index: 6; white-space: nowrap; color:white">SZEROKI ZAKRES
                         </div>
 
                         <!-- LAYER NR. 3 -->
@@ -130,7 +130,7 @@
                         <!-- LAYER NR. 2 -->
                         <div class="tp-caption contrive-ken-title2 tp-resizeme rs-parallaxlevel-0"
                              id="slide-25-layer-2"
-                             data-x="480"
+                             data-x="450"
                              data-y="center" data-voffset="-12"
                              data-width="['auto']"
                              data-height="['auto']"
@@ -142,7 +142,7 @@
                              data-splitin="none"
                              data-splitout="none"
                              data-responsive_offset="on"
-                             style="z-index: 6; white-space: nowrap;"> OD 15
+                             style="z-index: 6; white-space: nowrap; color:white;"> 10 LAT
                         </div>
 
                         <!-- LAYER NR. 3 -->
@@ -179,7 +179,7 @@
                              data-splitin="none"
                              data-splitout="none"
                              data-responsive_offset="on"
-                             style="z-index: 9; white-space: nowrap;">JESTEŚMY
+                             style="z-index: 9; white-space: nowrap;">PONAD
                         </div>
                     </li>
                 </ul>
@@ -200,11 +200,10 @@
                      class="contrive-col-3 contrive-custom-padding">
                     <div class="contrive-topmargin-30"></div>
                     <div class="contrive-heading right">
-                        <h6> W czym się </h6>
-                        <h2> SPECJALIZUJEMY ? </h2>
+                        <h6 style="text-align: center"> Oferta </h6>
+                        <h2 style="white-space: nowrap" > BUDOWLANA BUD-GED </h2>
                     </div>
-                    <p class="alignright"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non tincidunt
-                        orci. In non vestibulu orci. Praesent ac velit maecenas. </p>
+                    <p style="text-align: center" class="alignright">Specjalizujemy się w kompleksowej realizacji przedsięwzięć budowlanych.</p>
                 </div>
 
                 <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600"
@@ -214,8 +213,7 @@
                             <i class="et-icon icon-key"> </i>
                         </div>
                         <h6> Budowa domów i nie tylko </h6>
-                        <p> Praesent aliquet fermentum magnaunc urna Class aptent taciti sociosqu litora Pellentesque
-                            sit </p>
+                        <p>Wykonujemy wszelkiego rodzaju remonty, termomodernizacje oraz kompleksowe wznoszenie budynków.</p>
                     </div>
                 </div>
 
@@ -225,9 +223,8 @@
                         <div class="contrive-icon-holder">
                             <i class="et-icon icon-gears"> </i>
                         </div>
-                        <h6> Wypożyczalnia sprzętu </h6>
-                        <p> Praesent aliquet fermentum magnaunc urna Class aptent taciti sociosqu litora Pellentesque
-                            sit </p>
+                        <h6>Usługi sprzętowe</h6>
+                        <p>Dysponujemy specjalistycznym sprzętem budowlanym, samochodami dostawczymi oraz flotą maszyn budowlanych.</p>
                     </div>
                 </div>
 
@@ -237,9 +234,8 @@
                         <div class="contrive-icon-holder">
                             <i class="et-icon icon-pencil"> </i>
                         </div>
-                        <h6> Roboty ziemne </h6>
-                        <p> Praesent aliquet fermentum magnaunc urna Class aptent taciti sociosqu litora Pellentesque
-                            sit </p>
+                        <h6> Roboty ziemne i inne</h6>
+                        <p>Wykonujemy wszelkiego rodzaju prace ziemne oraz reazlizujemy zlecenia przy pomocy dźwigów, podnośników i innych sprzętów.</p>
                     </div>
                 </div>
 
@@ -252,13 +248,8 @@
         <div class="contrive-container">
 
             <div class="contrive-heading center">
-                <h1>BUD GED - USŁUGI OGÓLNOBUDOWLANE</h1>
+                <h1>BUD GED - USŁUGI BUDOWLANE</h1>
             </div>
-
-            <p class="aligncenter contrive-custom-para"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                non tincidunt orci. In non vestibulum orci. <br> Praesent ac velit nisl. <a href="" title="">Maecenas
-                    facilisis </a> tincidunt odio sollicitudin mattis. </p>
-
             <div class="contrive-topmargin-50"></div>
 
         </div>
@@ -283,8 +274,7 @@
                                 <i class="et-icon icon-target"> </i>
                             </div>
                             <h6> PRECYZYJNIE SPEŁNIMY TWOJE OCZEKIWANIA </h6>
-                            <p> Praesent aliquet fermentum magna Nunc urna Class aptent taciti sociosqu litora
-                                Pellentesque sit amet justo orem ipsum dolor sit amet. </p>
+                            <p>Masz pytania lub chcesz zacząć współpracę? Skontaktuj się z nami a odpowiemy na wszystkie Twoje pytania.</p>
                         </div>
                     </div>
                     <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600" class="contrive-col-6">
@@ -292,9 +282,8 @@
                             <div class="contrive-icon-holder">
                                 <i class="et-icon icon-global"> </i>
                             </div>
-                            <h6> DZIAŁAMY NA WIELU OBSZARACH </h6>
-                            <p> Praesent aliquet fermentum magna Nunc urna Class aptent taciti sociosqu litora
-                                Pellentesque sit amet justo orem ipsum dolor sit amet. </p>
+                            <h6> DZIAŁAMY W WIELU OBSZARACH </h6>
+                            <p>Planujesz budowe, remont lub inne? Zajrzyj do naszej oferty i sprawdź czy nas nie potrzebujesz.</p>
                         </div>
                     </div>
                     <div class="contrive-topmargin-50"></div>
@@ -304,8 +293,7 @@
                                 <i class="et-icon icon-profile-male"> </i>
                             </div>
                             <h6> ZESPÓŁ SPECJALISTÓW </h6>
-                            <p> Praesent aliquet fermentum magna Nunc urna Class aptent taciti sociosqu litora
-                                Pellentesque sit amet justo orem ipsum dolor sit amet. </p>
+                            <p>Naszą firmę tworzy wykwalifikowany personel, który zapewnia wysoką jakość usług i koordynuję cały proces inwestycji.</p>
                         </div>
                     </div>
                     <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600" class="contrive-col-6">
@@ -313,9 +301,8 @@
                             <div class="contrive-icon-holder">
                                 <i class="et-icon icon-trophy"> </i>
                             </div>
-                            <h6> BOGATE PORTFOLIO </h6>
-                            <p> Praesent aliquet fermentum magna Nunc urna Class aptent taciti sociosqu litora
-                                Pellentesque sit amet justo orem ipsum dolor sit amet. </p>
+                            <h6>BOGATE PORTFOLIO</h6>
+                            <p>Posiadamy ponad 10 lat doświadczenia w branży budowlanej. W tym czasie zdążyliśmy zrealizować wiele inwestycji.</p>
                         </div>
                     </div>
                 </div>
@@ -329,13 +316,8 @@
     <div class="contrive-row-fw contrive-fw-no-padding">
         <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600" class="contrive-heading center">
             <h6> Wybrane </h6>
-            <h2> PROJEKTY </h2>
+            <h2> PROJEKTY BUDOWLANE </h2>
         </div>
-
-        <p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600"
-           class="aligncenter contrive-custom-para"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non
-            tincidunt orci. In non vestibulum orci. <br> Praesent ac velit nisl. Maecenas facilisis tincidunt odio
-            sollicitudin mattis. </p>
 
         <div class="contrive-topmargin-50"></div>
 

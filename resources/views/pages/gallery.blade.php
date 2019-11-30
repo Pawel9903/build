@@ -1,7 +1,7 @@
 @extends('layout.master')
-@section('title', 'BUD GED - Galeria')
+@section('title', 'BUD GED galeria naszych projektów budowlanych.')
 @section('keywords', 'usługi ogólnobudowlane, budowa, firma, dom, koparka,  jednorodzinny, wypożyczanie sprzętu, roboty ziemne')
-@section('description', 'BUD GED - galeria naszych projektów. usługi ogólnobudowlane, roboty ziemne, wypożyczanie sprzętu budowlanego')
+@section('description', 'BUD GED - galeria naszych projektów. usługi ogólnobudowlane, roboty ziemne, wypożyczanie sprzętu budowlanego.')
 @section('content')
 
     @include('layout.partials.topHeaderPage', ['header' => 'GALERIA'])
@@ -16,9 +16,7 @@
                     <h2> Projekty </h2>
                 </div>
 
-                <p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600" class="aligncenter contrive-custom-para"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Morbi non tincidunt orci. In non vestibulum orci. <br> Praesent ac velit nisl. <a href="" title="">Maecenas
-                        facilisis </a> tincidunt odio sollicitudin mattis. </p>
+                <p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600" class="aligncenter contrive-custom-para">Zapraszamy do obejrzenia i zapoznania się z naszymi projektami.</p>
 
                 <div class="contrive-topmargin-50"></div>
 

@@ -1,5 +1,5 @@
 @extends('layout.master')
-@section('title', 'BUD GED - Nasze usługi')
+@section('title', 'BUD GED usługi budowlane, budowa, firma, dom, koparka,  jednorodzinny, wypożyczanie sprzętu, roboty ziemne.')
 @section('keywords', 'usługi ogólnobudowlane, budowa, firma, dom, koparka,  jednorodzinny, wypożyczanie sprzętu, roboty ziemne')
 @section('description', 'BUD GED - usługi ogólnobudowlane, roboty ziemne, wypożyczanie sprzętu budowlanego.')
 @section('content')
@@ -21,7 +21,11 @@
                 <img src="{{ asset('images/build/services_page.jpeg') }}" alt="" title="">
             </div>
             <div class="contrive-topmargin-50"></div>
-            <p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600" class="aligncenter contrive-custom-para"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non tincidunt orci. In non vestibulum orci. <br> Praesent ac velit nisl. <a href="" title="">Maecenas facilisis </a> tincidunt odio sollicitudin mattis. </p>
+            <p style="margin-left: 50px; margin-right: 50px;" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600" class="aligncenter contrive-custom-para">
+                BUD-GED jest profesjonalną firmą budowlaną instniejącą ponad 10 lat na rynku. W tym czasie udało nam się zrealizować sporo projektów dzięki, którym zdobyliśmy sporo doświadczenia.
+                Pozwala nam ono na świadczenie bardzo szerokiego zakresu usług w branży budowlanej. Realizujemy inwestycję z zakresu budownictwa mieszkaniowego, kompleksowe termomodernizacje, roboty ziemne, wznoszenie oraz modernicacje budynków.
+                Dzięki sztabowi specjalistów oraz z pomocą nowoczesnego sprzętu gwarantujemy profesjonalne podejście do projektów oraz wysoką jakość wykonania.
+            </p>
 
         </div>
     </div>

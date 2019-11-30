@@ -1,5 +1,5 @@
 @extends('layout.master')
-@section('title', 'BUD GED - Kontakt')
+@section('title', 'BUD GED kontakt do firmy wykonującej prace budowlane.')
 @section('keywords', 'usługi ogólnobudowlane, budowa, firma, dom, koparka,  jednorodzinny, wypożyczanie sprzętu, roboty ziemne')
 @section('description', 'BUD GED - Jeżeli chcesz skożystać z naszych usług skontaktuj się z nami i sprawdź naszą ofertę.')
 @section('content')

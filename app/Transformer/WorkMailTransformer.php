@@ -26,12 +26,11 @@ class WorkMailTransformer implements TransformerInterface
 
         $workMail = new WorkMail();
         $workMail
-            ->setPhone(!empty($data['tel'])? $data['tel'] : '')
+            ->setPhone(!empty($data['request']['tel'])? $data['request']['tel'] : '')
             ->setName($data['request']['name'])
             ->setEmail($data['request']['email'])
             ->setDescription($data['request']['description'])
             ->setFile($data['file']);
-
         return $workMail;
     }
 

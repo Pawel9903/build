@@ -8,7 +8,7 @@
                     <div class="aligncenter">
                         <img data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600" src="{{ asset('images/logo/fullLogo297x200.png') }}" alt="" title="">
                         <div class="contrive-topmargin-50"></div>
-                        <p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600" class="footer-about-content"> Aenean volutpat dui id erat egestas, egestas placerat odio pretium. Suspendisse a dolor a dui <br> interdum gravida. Aenean ultrices convallis viverra. Nunc iaculis dictum eros, eutinc idunt <br> purus porttitor quis. Pellentesque ut mauris at ligula pellentesque convallis sit </p>
+                        <p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600" class="footer-about-content">Jesteśmy firmą ogólnobudowlaną z bogatym doświadczeniem,<br> dużym zasobem sprzętwowym oraz wiekim potencjałem.</p>
                         <div class="contrive-topmargin-80"></div>
                     </div>
                 </div>
@@ -24,8 +24,7 @@
                                     </div>
                                     <div class="contrive-contact-text-holder">
                                         <h6> TEL. </h6>
-                                        <p> +123 45 67 890 78 </p>
-                                        <p> +123 67 89 012 45 </p>
+                                        <p> +48 605 831 374 </p>
                                     </div>
                                 </div>
                             </div>
@@ -48,7 +47,7 @@
                                     </div>
                                     <div class="contrive-contact-text-holder">
                                         <h6> EMAIL </h6>
-                                        <a class="contact-link" href="" title=""> info@bud-ged.pl </a>
+                                        <a class="contact-link" href="" title=""> kontakt@bud-ged.com </a>
                                     </div>
                                 </div>
                             </div>

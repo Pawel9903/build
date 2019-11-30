@@ -61,6 +61,10 @@
   margin-bottom: 30px;
 }
 
+.contrive-portfolio-item figure img {
+  height: 100% !important;
+}
+
 .cv-label {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -83,3 +87,18 @@
   text-align: center;
 }
 
+.services-container * {
+    color: white !important;
+}
+
+.services-container p {
+    font-weight: 600;
+}
+
+.contrive-icon-with-title.left h6:before {
+    background-color: white;
+}
+
+.contrive-contact-with-large-icon .contrive-contact-text-holder h6 {
+    color: white;
+}

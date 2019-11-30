@@ -18,7 +18,7 @@
             </div>
             <div class="contrive-topmargin-30"></div>
             <div class="aligncenter">
-                <img src="{{ asset('images/build/services.png') }}" alt="" title="">
+                <img src="{{ asset('images/build/services_page.jpeg') }}" alt="" title="">
             </div>
             <div class="contrive-topmargin-50"></div>
             <p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600" class="aligncenter contrive-custom-para"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non tincidunt orci. In non vestibulum orci. <br> Praesent ac velit nisl. <a href="" title="">Maecenas facilisis </a> tincidunt odio sollicitudin mattis. </p>

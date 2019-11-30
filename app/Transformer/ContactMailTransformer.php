@@ -18,7 +18,9 @@ class ContactMailTransformer implements TransformerInterface
     public function transform(array $data): ContactMail
     {
         $contactMail = new ContactMail();
-        $contactMail->setName($data['name'])
+        $contactMail
+            ->setPhone(!empty($data['tel'])? $data['tel'] : '')
+            ->setName($data['name'])
             ->setEmail($data['email'])
             ->setDescription($data['description']);
 

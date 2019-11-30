@@ -2,95 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43fdb69f-22f8-46ed-96b4-b5e59a1512db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/acceptance/ContactViewCest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/acceptance/NavigationPageCest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/api/MailControllerCest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/api/PageCest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/unit/TransformerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/build/services.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/build/services_page.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/build/slider1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/build/slider2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/build/work.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Handler/MailHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Handler/MailHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MailController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MailController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Transformer/ContactMailTransformer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Transformer/ContactMailTransformer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Transformer/WorkMailTransformer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Transformer/WorkMailTransformer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/css/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/css/custom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/fonts/Flaticon.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/fonts/Flaticon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/fonts/Flaticon.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/fonts/Flaticon.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/fonts/Pe-icon-7-stroke.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/fonts/Pe-icon-7-stroke.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/fonts/Pe-icon-7-stroke.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/fonts/Pe-icon-7-stroke.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/fonts/et-line.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/fonts/et-line.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/fonts/et-line.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/fonts/et-line.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/images/build/1211.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/images/build/1223.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/images/build/179376-OWJAJ9-496.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/images/build/2940.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/images/build/2995.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/images/build/305812-P7U86S-562.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/images/build/305812-P7U86S-562_light.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/images/build/3246.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/images/build/3934.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/images/build/49372.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/images/build/626048-PNZP6Y-668.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/images/build/services.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/images/close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/images/favicon/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/images/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/images/logo/fullLogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/images/logo/fullLogo297x200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/images/logo/marker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/images/logo/nameLogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/images/logo/nameLogo172x25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/images/logo/nameLogo281x40.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/images/logo/nameLogo421x60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/images/logo/nameLogo632x90.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/images/logo/nameLogoWhite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/images/logo/nameLogoWhite421x60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/images/next.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/images/prev.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/mix-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/public/web.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/custom/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/custom/custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/pages/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/pages/_index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/pages/_work.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/pages/_work.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/theme/css/ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/theme/css/ui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout/partials/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/partials/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout/partials/form/footerForm.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/partials/form/footerForm.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/mail/mail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mail/mail.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/contact.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/pages/_gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/pages/_gallery.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/partials/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/partials/head.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/pages/gallery.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/gallery.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/services.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/services.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/work.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/work.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -230,11 +159,16 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1PKXV9OeAtSwFwWpDVdUOJ81OKB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/functional" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images/build" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -249,24 +183,12 @@
       <recent name="$PROJECT_DIR$/resources/views/layout/partials/form" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images/build" />
       <recent name="$PROJECT_DIR$/tests/functional" />
       <recent name="$PROJECT_DIR$/tests/acceptance" />
       <recent name="$PROJECT_DIR$/tests/unit" />
       <recent name="$PROJECT_DIR$/app/Validator" />
-      <recent name="$PROJECT_DIR$/app/Transformer" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Codeception.TransformerTest.php">
     <configuration name="ContactViewCest.php (1)" type="CodeceptionConfigurationType" factoryName="Codeception" temporary="true">
@@ -299,11 +221,11 @@
     </configuration>
     <list>
       <item itemvalue="Codeception.PageCest.php" />
-      <item itemvalue="Codeception.MailTest.php" />
-      <item itemvalue="Codeception.TransformerTest.php" />
-      <item itemvalue="Codeception.ContactViewCest.php" />
-      <item itemvalue="Codeception.NavigationPageCest.php" />
       <item itemvalue="Codeception.ContactViewCest.php (1)" />
+      <item itemvalue="Codeception.ContactViewCest.php" />
+      <item itemvalue="Codeception.MailTest.php" />
+      <item itemvalue="Codeception.NavigationPageCest.php" />
+      <item itemvalue="Codeception.TransformerTest.php" />
       <item itemvalue="PHPUnit.phpunit.xml" />
     </list>
     <recent_temporary>
@@ -317,13 +239,15 @@
     </recent_temporary>
   </component>
   <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand />
-          <select />
-        </treeState>
-      </serviceView>
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
     </option>
   </component>
   <component name="SvnConfiguration">
@@ -376,7 +300,11 @@
       <workItem from="1573398902897" duration="1076000" />
       <workItem from="1573497587461" duration="1238000" />
       <workItem from="1574360043317" duration="154000" />
-      <workItem from="1574873791077" duration="6849000" />
+      <workItem from="1574873791077" duration="7908000" />
+      <workItem from="1575053647515" duration="7453000" />
+      <workItem from="1575111769315" duration="646000" />
+      <workItem from="1575113297862" duration="35000" />
+      <workItem from="1575113411715" duration="4267000" />
     </task>
     <servers />
   </component>
@@ -396,11 +324,17 @@
       </map>
     </option>
   </component>
+  <component name="WindowStateProjectService">
+    <state x="401" y="125" width="624" height="551" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575113324129">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="401" y="125" width="624" height="551" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/70.27.1296.741@70.27.1296.741" timestamp="1575113324129" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/build$PageCest_php.xml" NAME="PageCest.php Coverage Results" MODIFIED="1567862283575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/build$TransformerTest_php.xml" NAME="TransformerTest.php Coverage Results" MODIFIED="1567872039859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/build$MailControllerCest_php.xml" NAME="MailControllerCest.php Coverage Results" MODIFIED="1567867952062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/build$PageCest_php__1_.xml" NAME="PageCest.php (1) Coverage Results" MODIFIED="1567862204578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/build$MailControllerCest_php.xml" NAME="MailControllerCest.php Coverage Results" MODIFIED="1567867952062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/build$MailTest_php.xml" NAME="MailTest.php Coverage Results" MODIFIED="1567868645299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/build$PageCest_php.xml" NAME="PageCest.php Coverage Results" MODIFIED="1567862283575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

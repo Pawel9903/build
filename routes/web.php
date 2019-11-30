@@ -23,3 +23,21 @@ Route::post('/praca/wyslij', 'MailController@work')->name('work_send');
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+
+//Route::get('/clear', function() {
+//
+//    Artisan::call('config:clear');
+//    Artisan::call('cache:clear');
+//    Artisan::call('config:cache');
+//    Artisan::call('storage:link');
+//
+//    return "Cleared!";
+//
+//});
+
+
+//Clear Route cache:
+Route::get('/route-clear', function() {
+    $exitCode = Artisan::call('route:clear');
+    return '<h1>Route cache cleared</h1>';
+});

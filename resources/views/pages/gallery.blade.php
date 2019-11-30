@@ -29,14 +29,8 @@
             @foreach($gallery as $item)
                 <article class="contrive-col-4 no-space contrive-portfolio-item psd ai gallery-element">
                     <figure>
-                        <a href="{{ asset("storage/{$item->image}") }}" data-lightbox="index"
-                           data-title="{{ $item->name }}">
-                            <img class="" title="{{ $item->name }}" alt="{{ $item->name }}" src="{{ asset("storage/{$item->image}") }}">
-                            <figcaption>
-                                <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600" class="fig-overlay image-description">
-                                    <h3 class="gallery-item-header">{{ $item->name }}</h3>
-                                </div>
-                            </figcaption>
+                        <a href="{{ asset("storage/{$item->image}") }}" data-lightbox="index">
+                            <img alt="{{ $item->name }}" src="{{ asset("storage/{$item->image}") }}">
                         </a>
                     </figure>
                 </article>

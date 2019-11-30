@@ -19,7 +19,7 @@
                         data-easeout="default" data-masterspeed="default"
                         data-rotate="0" data-saveperformance="off" data-title="Slide" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="{{ asset('/images/build/2940.jpg') }}" alt="" width="1920" height="1080"
+                        <img src="{{ asset('/images/build/slider1.jpg') }}" alt="" width="1920" height="1080"
                              data-bgposition="center center" data-kenburns="on" data-duration="10000"
                              data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="150" data-rotatestart="0"
                              data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="off"
@@ -102,7 +102,7 @@
                         data-easeout="default" data-masterspeed="default"
                         data-rotate="0" data-saveperformance="off" data-title="Slide" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="{{ asset('/images/build/1223.jpg') }}" alt="" width="1920" height="1080"
+                        <img src="{{ asset('/images/build/slider2.jpeg') }}" alt="" width="1920" height="1080"
                              data-bgposition="center center" data-kenburns="on" data-duration="10000"
                              data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="150" data-rotatestart="0"
                              data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="off"
@@ -252,7 +252,7 @@
         <div class="contrive-container">
 
             <div class="contrive-heading center">
-                <h1>BUD GED</h1>
+                <h1>BUD GED - USŁUGI OGÓLNOBUDOWLANE</h1>
             </div>
 
             <p class="aligncenter contrive-custom-para"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
@@ -265,7 +265,7 @@
     </div>
 
     <div class="contrive-row-fw contrive-fw-no-padding contrive-about-cont2 contrive-scale-bg"
-         style="background:url({{ asset('/images/build/305812-P7U86S-562_light.jpg') }}) left top no-repeat;">
+         style="background:url({{ asset('/images/build/services.jpg') }}) no-repeat; background-size: cover;">
 
         <div class="contrive-row">
 
@@ -276,7 +276,7 @@
 
                 <div class="contrive-topmargin-70"></div>
 
-                <div class="contrive-row">
+                <div class="contrive-row services-container">
                     <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600" class="contrive-col-6">
                         <div class="contrive-icon-with-title left style5">
                             <div class="contrive-icon-holder">
@@ -344,15 +344,9 @@
             @foreach($gallery as $item)
                 <article class="contrive-col-3 no-space contrive-portfolio-item house index-gallery-element">
                     <figure>
-                        <a href="{{ asset("storage/{$item->image}") }}" data-lightbox="index"
-                           data-title="{{ $item->name }}">
-                            <img title="{{ $item->name }}" alt="{{ $item->name }}"
+                        <a href="{{ asset("storage/{$item->image}") }}" data-lightbox="index">
+                            <img alt="{{ $item->name }}"
                                  src="{{ asset("storage/{$item->image}") }}">
-                            <figcaption>
-                                <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600" class="fig-overlay image-description">
-                                    <h3 class="gallery-item-header">{{ $item->name }}</h3>
-                                </div>
-                            </figcaption>
                         </a>
                     </figure>
                 </article>
@@ -363,14 +357,13 @@
 
     <div class="contrive-row-fw light-text contrive-polygon-parallax">
         <div class="contrive-container">
-            <div class="contrive-info-bar style3">
+            <div class="contrive-info-bar style3" style="cursor: pointer">
                 <h3> CHCESZ ZOBACZYĆ WIĘCEJ? </h3>
                 <a href="{{ route('gallery') }}" title="" class="contrive-button stroke-style light hvr-shutter-out-horizontal hvr-effect">Przejdź do galerii </a>
             </div>
         </div>
     </div>
-
-
+    @if(count($partners))
     <div class="contrive-row-fw contrive-grey-bg">
         <div class="contrive-container">
             <div class="contrive-clients">
@@ -387,7 +380,7 @@
             </div>
         </div>
     </div>
-
+    @endif
 
 @endsection
 

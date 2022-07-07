@@ -25,7 +25,7 @@
     "aos": "^2.3.4",
     "jquery.transit": "^0.9.12",
     "lightbox2": "^2.11.0",
-    "moment": "^2.22.2",
+    "moment": "^2.29.4",
     "oct-vue-form": "^1.0.0",
     "snazzy-info-window": "^1.1.1",
     "vuejs-datepicker": "^1.5.4"
